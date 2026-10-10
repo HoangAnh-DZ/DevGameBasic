@@ -7,13 +7,13 @@ namespace BlockCrush.UI
     {
         public static readonly Color Ink = new Color32(36, 18, 61, 255);
         public static readonly Color ButtonInk = new Color32(16, 33, 20, 255);
-
         public static void OnLight(Text text)
         {
             text.color = Ink;
             DisableShadow(text);
             var outline = text.GetComponent<Outline>();
-            if (outline) outline.enabled = false;
+            if (outline)
+                outline.enabled = false;
         }
 
         public static void OnButton(Text text)
@@ -32,7 +32,8 @@ namespace BlockCrush.UI
         {
             DisableShadow(text);
             var outline = text.GetComponent<Outline>();
-            if (!outline) outline = text.gameObject.AddComponent<Outline>();
+            if (!outline)
+                outline = text.gameObject.AddComponent<Outline>();
             outline.enabled = true;
             outline.effectColor = color;
             outline.effectDistance = new Vector2(width, -width);
@@ -42,14 +43,16 @@ namespace BlockCrush.UI
         static void DisableShadow(Text text)
         {
             foreach (var shadow in text.GetComponents<Shadow>())
-                if (!(shadow is Outline)) shadow.enabled = false;
+                if (!(shadow is Outline))
+                    shadow.enabled = false;
         }
 
         public static void RefreshButtonArtwork(Button button)
         {
             var label = button.transform.Find("Label");
             var image = label ? label.GetComponent<Image>() : null;
-            if (image) image.color = button.interactable ? ButtonInk : Color.white;
+            if (image)
+                image.color = button.interactable ? ButtonInk : Color.white;
         }
     }
 }

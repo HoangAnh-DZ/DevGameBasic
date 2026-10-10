@@ -8,6 +8,11 @@ namespace BlockCrush.UI
         public static bool Sound => PlayerPrefs.GetInt(SoundKey, 1) != 0;
         public static bool Bgm => PlayerPrefs.GetInt(BgmKey, 1) != 0;
         public static bool Vibration => PlayerPrefs.GetInt(VibrationKey, 1) != 0;
-        public static void Set(string key, bool enabled) { PlayerPrefs.SetInt(key, enabled ? 1 : 0); PlayerPrefs.Save(); }
+
+        public static void Set(string key, bool enabled)
+        {
+            PlayerPrefs.SetInt(key, enabled ? 1 : 0);
+            PlayerPrefs.Save();
+        }
     }
 }

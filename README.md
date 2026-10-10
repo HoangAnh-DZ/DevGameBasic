@@ -24,14 +24,15 @@ Build Settings đã có thứ tự Home → Classic → Adventure. Giao diện t
 
 ## Kiểm tra đã chạy
 
-- Bộ kiểm tra toàn luồng sau sửa tương phản chữ: **2.885 mục PASS**.
+- Bộ kiểm tra toàn luồng sau tối ưu: **2.885 mục PASS**; core Classic bằng chuột/cảm ứng **65 mục PASS**; kiểm tra cache, HUD, layout và dữ liệu **43 mục PASS**.
+- Công cụ dựng UI: **6 mục PASS** trong scene tạm. Compile Editor và script Player Windows PASS; Console cuối không lỗi hoặc cảnh báo.
 - Các lần kiểm tra riêng trước đó cho bản sửa popup: **513 mục vòng quay PASS**, **838 mục Daily/Shop PASS**.
 - Độ phân giải 1080×1920, 1440×2960, mô phỏng tai thỏ/vùng cử chỉ và đổi kích thước khi popup đang mở; Console cuối không lỗi hoặc cảnh báo.
 - Các bài kiểm tra chạy trong Unity Editor, khôi phục ví, vòng quay, tùy chọn và tiến trình sau khi chạy. Chưa kiểm tra trên thiết bị Android/iOS thật.
 
-Báo cáo: [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](Captures/Figma/LuckyWheelVerification.md), [Daily/Shop](Captures/Figma/CommerceVerification.md), [toàn luồng](Captures/Figma/MenuVerification.md). Ảnh sau điều chỉnh: [1080×1920](Captures/Figma/LuckyWheel_CoinReward_Unity_1080x1920.png), [1440×2960](Captures/Figma/LuckyWheel_CoinReward_Unity_1440x2960.png).
+Báo cáo: [tối ưu code](Captures/Figma/OptimizationReview.md), [kiểm tra cache/layout](Captures/Figma/OptimizationVerification.md), [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](Captures/Figma/LuckyWheelVerification.md), [Daily/Shop](Captures/Figma/CommerceVerification.md), [toàn luồng](Captures/Figma/MenuVerification.md). Ảnh sau điều chỉnh: [1080×1920](Captures/Figma/LuckyWheel_CoinReward_Unity_1080x1920.png), [1440×2960](Captures/Figma/LuckyWheel_CoinReward_Unity_1440x2960.png).
 
-Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()` hoặc `StartCommerce()`. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`.
+Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()`, `StartCommerce()` hoặc `StartOptimization()`. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`; bộ này chỉ chạy trong scene Classic.
 
 Chi tiết kỹ thuật: [gameplay](Assets/Scripts/BlockCrush/README.md), [UI và dữ liệu](Assets/BlockCrush/Scripts/UI/README.md). Nguồn thiết kế Figma và thông tin xuất artwork được giữ trong `Captures/Figma`; font có giấy phép đi kèm trong Assets.
 

@@ -56,5 +56,13 @@ Verification: `BlockCrushMenuVerification.Start()` runs from Home in Play Mode u
 
 The menu builder creates Home and the UI prefab, then adds the prefab and Settings button callback to the existing gameplay scene and rebuilds Adventure. It never invokes the gameplay scene builder. `BlockCrushScreenBuilder.BuildGameOver()` and `BuildAdventure()` update the respective saved screens without rebuilding core gameplay. The core manager/spawner consult optional Adventure rules; Classic retains its original scoring and random-generation branches.
 
+UI update policy: `EconomySave.Save()` increments an in-memory revision only after the existing JSON record is flushed. Wallet and Daily views observe this revision instead of repeatedly deserializing unchanged PlayerPrefs. Keep wallet mutations behind the existing save/claim/grant APIs. Daily and Wheel countdowns use `CountdownText` once per second and still refresh eligibility when the UTC date changes, including clock rollback. Opening a view refreshes its saved state immediately.
+
+Layout components compare their screen, safe-area and parent geometry before applying transforms. `FigmaLayoutFitter` also observes transformed containment bounds and updates its host first during resizing. Public `Apply()` remains an explicit forced refresh. Adventure HUD writes occur only when displayed values change. Board preview reuses its list and skips unchanged highlights after validating placement; occupancy and scoring rules remain in the existing board/manager.
+
+Editor builders share geometry helpers in `UiBuilderUtility`, require Edit Mode with saved scenes, and unload temporary prefab contents in `finally`. Full menu rebuilding reconnects gameplay audio after replacing SettingsUI. `Handheld.Vibrate()` is compiled for Editor/Android/iOS only; the mobile preference check is unchanged. Formatting follows `.editorconfig`; verification counters are excluded from Player builds.
+
+`BlockCrushMenuVerification.StartOptimization()` checks cache invalidation, saved wallet updates, UTC boundaries, translated/resized popup containment, preview allocations and real Adventure HUD changes. The existing full menu and Classic suites remain the gameplay regressions. See `Captures/Figma/OptimizationReview.md` for measured results and scope.
+
 
 

@@ -6,6 +6,7 @@ namespace BlockCrush
     public interface IBlockGameRules
     {
         string BestScoreKey { get; }
+
         void Restarted();
         int PlacementScore(int cells, int lines, int previousCombo, out int combo);
         bool EndTurn(int score, bool noFit);
