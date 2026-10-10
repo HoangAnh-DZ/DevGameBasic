@@ -31,7 +31,11 @@ namespace BlockCrush.UI
         public void Close() { if(!IsOpen || rewards.IsOpen) return; panel.SetActive(false); audioService.Feedback(); }
         public void ShowBundles() { if(rewards && rewards.IsOpen) return; bundles.SetActive(true); items.SetActive(false); SelectTabs(true); audioService.Feedback(); }
         public void ShowItems() { if(rewards && rewards.IsOpen) return; bundles.SetActive(false); items.SetActive(true); SelectTabs(false); audioService.Feedback(); }
-        void SelectTabs(bool first) { if(bundleTabLabel) bundleTabLabel.color=first?Color.yellow:Color.white; if(itemTabLabel) itemTabLabel.color=first?Color.white:Color.yellow; }
+        void SelectTabs(bool first)
+        {
+            if(bundleTabLabel) { bundleTabLabel.color=ReadableText.ButtonInk; bundleTabLabel.text=first?"• Bundles":"Bundles"; }
+            if(itemTabLabel) { itemTabLabel.color=ReadableText.ButtonInk; itemTabLabel.text=first?"Items":"• Items"; }
+        }
         public void Buy(int index)
         {
             if(!IsOpen || rewards.IsOpen || !catalog || !catalog.Valid || index<0 || index>=catalog.offers.Length) return;

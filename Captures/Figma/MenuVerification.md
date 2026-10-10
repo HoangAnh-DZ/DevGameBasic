@@ -1,4 +1,4 @@
-PASS: 2711 checks
+PASS: 2885 checks
 
 PASS: Home startup / existing gameplay Build Settings order
 PASS: No missing scripts: Home
@@ -53,6 +53,7 @@ PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
 PASS: LuckyWheelController.panel reference
 PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
 PASS: LuckyWheelController.spinButton reference
 PASS: LuckyWheelController.closeButton reference
 PASS: LuckyWheelController.spinLabel reference
@@ -75,6 +76,7 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -135,6 +137,13 @@ PASS: Empty inline JSON class normalizes on reload 0
 PASS: UTC midnight and clock rollback guard 0
 PASS: UTC countdown exact at boundary 0
 PASS: Unacknowledged saved outcome opens reward modal 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 0 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 0 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 0 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 0 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 0 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 0 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 0
 PASS: Actual sector label sits under top pointer 0
 PASS: Interactive button: RewardOKButton
@@ -147,6 +156,13 @@ PASS: Empty inline JSON class normalizes on reload 1
 PASS: UTC midnight and clock rollback guard 1
 PASS: UTC countdown exact at boundary 1
 PASS: Unacknowledged saved outcome opens reward modal 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 1 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 1 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 1 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 1 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 1 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 1 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 1
 PASS: Actual sector label sits under top pointer 1
 PASS: Interactive button: RewardOKButton
@@ -159,6 +175,13 @@ PASS: Empty inline JSON class normalizes on reload 2
 PASS: UTC midnight and clock rollback guard 2
 PASS: UTC countdown exact at boundary 2
 PASS: Unacknowledged saved outcome opens reward modal 2
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 2 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 2 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 2 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 2 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 2 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 2 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 2
 PASS: Actual sector label sits under top pointer 2
 PASS: Interactive button: RewardOKButton
@@ -171,6 +194,13 @@ PASS: Empty inline JSON class normalizes on reload 3
 PASS: UTC midnight and clock rollback guard 3
 PASS: UTC countdown exact at boundary 3
 PASS: Unacknowledged saved outcome opens reward modal 3
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 3 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 3 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 3 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 3 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 3 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 3 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 3
 PASS: Actual sector label sits under top pointer 3
 PASS: Interactive button: RewardOKButton
@@ -183,6 +213,13 @@ PASS: Empty inline JSON class normalizes on reload 4
 PASS: UTC midnight and clock rollback guard 4
 PASS: UTC countdown exact at boundary 4
 PASS: Unacknowledged saved outcome opens reward modal 4
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 4 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 4 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 4 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 4 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 4 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 4 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 4
 PASS: Actual sector label sits under top pointer 4
 PASS: Interactive button: RewardOKButton
@@ -195,6 +232,13 @@ PASS: Empty inline JSON class normalizes on reload 5
 PASS: UTC midnight and clock rollback guard 5
 PASS: UTC countdown exact at boundary 5
 PASS: Unacknowledged saved outcome opens reward modal 5
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 5 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 5 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 5 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 5 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 5 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 5 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 5
 PASS: Actual sector label sits under top pointer 5
 PASS: Interactive button: RewardOKButton
@@ -207,6 +251,13 @@ PASS: Empty inline JSON class normalizes on reload 6
 PASS: UTC midnight and clock rollback guard 6
 PASS: UTC countdown exact at boundary 6
 PASS: Unacknowledged saved outcome opens reward modal 6
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 6 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 6 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 6 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 6 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 6 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 6 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 6
 PASS: Actual sector label sits under top pointer 6
 PASS: Interactive button: RewardOKButton
@@ -219,6 +270,13 @@ PASS: Empty inline JSON class normalizes on reload 7
 PASS: UTC midnight and clock rollback guard 7
 PASS: UTC countdown exact at boundary 7
 PASS: Unacknowledged saved outcome opens reward modal 7
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 7 frame 0
+PASS: Reward is centered in wheel panel: Saved sector 7 frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 7 frame 1
+PASS: Reward is centered in wheel panel: Saved sector 7 frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Saved sector 7 frame 2
+PASS: Reward is centered in wheel panel: Saved sector 7 frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Saved reward lands at sector 7
 PASS: Actual sector label sits under top pointer 7
 PASS: Interactive button: RewardOKButton
@@ -275,21 +333,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -346,14 +389,59 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Wheel respects natural safe area (1080, 1920)
+PASS: Wheel panel respects natural safe area (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Wheel (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Wheel (1080, 1920)
+PASS: Home stays visible behind popup: Wheel (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1080, 1920)
+PASS: Wheel panel centers on safe area (1080, 1920)
 PASS: Original transparent Figma disc, not a screen screenshot
 PASS: All eight amount labels visible on rotating sectors
 PASS: Disc and all eight reward icons assigned
 PASS: Wheel reuses two SFX voices and separate BGM
 PASS: Wheel fits notch and gesture inset (1080, 1920)
+PASS: Reserve coin popup layout fixture (1080, 1920)
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1080, 1920) frame 0
+PASS: Reward is centered in wheel panel: Coin reward (1080, 1920) frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1080, 1920) frame 1
+PASS: Reward is centered in wheel panel: Coin reward (1080, 1920) frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1080, 1920) frame 2
+PASS: Reward is centered in wheel panel: Coin reward (1080, 1920) frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1080, 1920) frame 0
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1080, 1920) frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1080, 1920) frame 1
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1080, 1920) frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1080, 1920) frame 2
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1080, 1920) frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
+PASS: Reward white frame is wholly inside wheel with a visible margin: Open reward follows live screen resize frame 0
+PASS: Reward is centered in wheel panel: Open reward follows live screen resize frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Open reward follows live screen resize frame 1
+PASS: Reward is centered in wheel panel: Open reward follows live screen resize frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Open reward follows live screen resize frame 2
+PASS: Reward is centered in wheel panel: Open reward follows live screen resize frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
+PASS: Interactive button: RewardOKButton
 PASS: Interactive button: LuckyCloseButton
 PASS: Close returns to Home (1080, 1920)
 PASS: Interactive button: WheelButton
@@ -409,21 +497,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -480,14 +553,52 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Wheel respects natural safe area (1440, 2960)
+PASS: Wheel panel respects natural safe area (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Wheel (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Wheel (1440, 2960)
+PASS: Home stays visible behind popup: Wheel (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1440, 2960)
+PASS: Wheel panel centers on safe area (1440, 2960)
 PASS: Original transparent Figma disc, not a screen screenshot
 PASS: All eight amount labels visible on rotating sectors
 PASS: Disc and all eight reward icons assigned
 PASS: Wheel reuses two SFX voices and separate BGM
 PASS: Wheel fits notch and gesture inset (1440, 2960)
+PASS: Reserve coin popup layout fixture (1440, 2960)
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1440, 2960) frame 0
+PASS: Reward is centered in wheel panel: Coin reward (1440, 2960) frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1440, 2960) frame 1
+PASS: Reward is centered in wheel panel: Coin reward (1440, 2960) frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Coin reward (1440, 2960) frame 2
+PASS: Reward is centered in wheel panel: Coin reward (1440, 2960) frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1440, 2960) frame 0
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1440, 2960) frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1440, 2960) frame 1
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1440, 2960) frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Reward respects wheel notch bounds (1440, 2960) frame 2
+PASS: Reward is centered in wheel panel: Reward respects wheel notch bounds (1440, 2960) frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
+PASS: Interactive button: RewardOKButton
 PASS: Interactive button: LuckyCloseButton
 PASS: Close returns to Home (1440, 2960)
 PASS: Interactive button: WheelButton
@@ -502,6 +613,13 @@ PASS: Final wheel angle points at selected visible sector
 PASS: Animated outcome matches exactly one durable receipt
 PASS: Winner highlight, stop cue and cheerful receipt cue play once
 PASS: Visible You get modal matches selected reward amount
+PASS: Reward white frame is wholly inside wheel with a visible margin: Animated spin result frame 0
+PASS: Reward is centered in wheel panel: Animated spin result frame 0
+PASS: Reward white frame is wholly inside wheel with a visible margin: Animated spin result frame 1
+PASS: Reward is centered in wheel panel: Animated spin result frame 1
+PASS: Reward white frame is wholly inside wheel with a visible margin: Animated spin result frame 2
+PASS: Reward is centered in wheel panel: Animated spin result frame 2
+PASS: 48-unit minimum mobile touch region: RewardOKButton
 PASS: Spin credits exact wallet/inventory amount once
 PASS: Used spin switches to Figma grey countdown state
 PASS: Post-spin repeated callback cannot grant another receipt
@@ -523,6 +641,8 @@ PASS: Recovered receipt cannot be duplicated by reopening
 PASS: Sound OFF suppresses stop and reward cues too
 PASS: Interactive button: RewardOKButton
 PASS: Saved Home has actual Daily, Shop, reward views and valid catalogs
+PASS: Reward opens when optional Cancel reference is missing
+PASS: Missing Cancel does not duplicate acknowledgement or alter the wallet
 PASS: Five balanced milestones with Figma 100-coin reward
 PASS: Incomplete task cannot claim
 PASS: Task 0 grant is atomic and rejects repeated claim
@@ -586,21 +706,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
@@ -632,6 +737,22 @@ PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -641,6 +762,7 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -659,7 +781,11 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Daily safe area (1080, 1920)
+PASS: Daily panel safe area (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Daily (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Daily (1080, 1920)
+PASS: Home stays visible behind popup: Daily (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Daily (1080, 1920)
 PASS: Daily panel occupies at least 85% of available width
 PASS: Daily panel is vertically centered with balanced outer margins
 PASS: 48-unit minimum mobile touch region: DailyCloseButton
@@ -667,12 +793,18 @@ PASS: 48-unit minimum mobile touch region: DailyClaimButton0
 PASS: Daily task title fits without colliding with Claim: 0
 PASS: 48-unit minimum mobile touch region: DailyClaimButton1
 PASS: Daily task title fits without colliding with Claim: 1
+PASS: Daily cards have at least eight mobile units of separation: 1
 PASS: 48-unit minimum mobile touch region: DailyClaimButton2
 PASS: Daily task title fits without colliding with Claim: 2
+PASS: Daily cards have at least eight mobile units of separation: 2
 PASS: 48-unit minimum mobile touch region: DailyClaimButton3
 PASS: Daily task title fits without colliding with Claim: 3
+PASS: Daily cards have at least eight mobile units of separation: 3
 PASS: 48-unit minimum mobile touch region: DailyClaimButton4
 PASS: Daily task title fits without colliding with Claim: 4
+PASS: Daily cards have at least eight mobile units of separation: 4
+PASS: Daily reset caption has space below the last card
+PASS: Daily reset caption clears the decorative bottom border
 PASS: Waiting Daily Claim visibly disabled
 PASS: Daily fits notch + gestures (1080, 1920)
 PASS: Daily panel occupies at least 85% of available width
@@ -682,14 +814,27 @@ PASS: 48-unit minimum mobile touch region: DailyClaimButton0
 PASS: Daily task title fits without colliding with Claim: 0
 PASS: 48-unit minimum mobile touch region: DailyClaimButton1
 PASS: Daily task title fits without colliding with Claim: 1
+PASS: Daily cards have at least eight mobile units of separation: 1
 PASS: 48-unit minimum mobile touch region: DailyClaimButton2
 PASS: Daily task title fits without colliding with Claim: 2
+PASS: Daily cards have at least eight mobile units of separation: 2
 PASS: 48-unit minimum mobile touch region: DailyClaimButton3
 PASS: Daily task title fits without colliding with Claim: 3
+PASS: Daily cards have at least eight mobile units of separation: 3
 PASS: 48-unit minimum mobile touch region: DailyClaimButton4
 PASS: Daily task title fits without colliding with Claim: 4
+PASS: Daily cards have at least eight mobile units of separation: 4
+PASS: Daily reset caption has space below the last card
+PASS: Daily reset caption clears the decorative bottom border
 PASS: Interactive button: DailyCloseButton
 PASS: Daily Close restores Home (1080, 1920)
+PASS: Interactive button: WheelButton
+PASS: Daily and Wheel panels have matching center and dimensions (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Wheel (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Wheel (1080, 1920)
+PASS: Home stays visible behind popup: Wheel (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1080, 1920)
+PASS: Interactive button: LuckyCloseButton
 PASS: Interactive button: ShopButton
 PASS: Shop opens Bundle tab (1080, 1920)
 PASS: Shop reopen starts at first offer (1080, 1920)
@@ -743,21 +888,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -767,6 +897,7 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -783,6 +914,22 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
@@ -911,6 +1058,7 @@ PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
 PASS: LuckyWheelController.panel reference
 PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
 PASS: LuckyWheelController.spinButton reference
 PASS: LuckyWheelController.closeButton reference
 PASS: LuckyWheelController.spinLabel reference
@@ -964,6 +1112,7 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -982,7 +1131,11 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Daily safe area (1440, 2960)
+PASS: Daily panel safe area (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Daily (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Daily (1440, 2960)
+PASS: Home stays visible behind popup: Daily (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Daily (1440, 2960)
 PASS: Daily panel occupies at least 85% of available width
 PASS: Daily panel is vertically centered with balanced outer margins
 PASS: 48-unit minimum mobile touch region: DailyCloseButton
@@ -990,12 +1143,18 @@ PASS: 48-unit minimum mobile touch region: DailyClaimButton0
 PASS: Daily task title fits without colliding with Claim: 0
 PASS: 48-unit minimum mobile touch region: DailyClaimButton1
 PASS: Daily task title fits without colliding with Claim: 1
+PASS: Daily cards have at least eight mobile units of separation: 1
 PASS: 48-unit minimum mobile touch region: DailyClaimButton2
 PASS: Daily task title fits without colliding with Claim: 2
+PASS: Daily cards have at least eight mobile units of separation: 2
 PASS: 48-unit minimum mobile touch region: DailyClaimButton3
 PASS: Daily task title fits without colliding with Claim: 3
+PASS: Daily cards have at least eight mobile units of separation: 3
 PASS: 48-unit minimum mobile touch region: DailyClaimButton4
 PASS: Daily task title fits without colliding with Claim: 4
+PASS: Daily cards have at least eight mobile units of separation: 4
+PASS: Daily reset caption has space below the last card
+PASS: Daily reset caption clears the decorative bottom border
 PASS: Waiting Daily Claim visibly disabled
 PASS: Daily fits notch + gestures (1440, 2960)
 PASS: Daily panel occupies at least 85% of available width
@@ -1005,14 +1164,27 @@ PASS: 48-unit minimum mobile touch region: DailyClaimButton0
 PASS: Daily task title fits without colliding with Claim: 0
 PASS: 48-unit minimum mobile touch region: DailyClaimButton1
 PASS: Daily task title fits without colliding with Claim: 1
+PASS: Daily cards have at least eight mobile units of separation: 1
 PASS: 48-unit minimum mobile touch region: DailyClaimButton2
 PASS: Daily task title fits without colliding with Claim: 2
+PASS: Daily cards have at least eight mobile units of separation: 2
 PASS: 48-unit minimum mobile touch region: DailyClaimButton3
 PASS: Daily task title fits without colliding with Claim: 3
+PASS: Daily cards have at least eight mobile units of separation: 3
 PASS: 48-unit minimum mobile touch region: DailyClaimButton4
 PASS: Daily task title fits without colliding with Claim: 4
+PASS: Daily cards have at least eight mobile units of separation: 4
+PASS: Daily reset caption has space below the last card
+PASS: Daily reset caption clears the decorative bottom border
 PASS: Interactive button: DailyCloseButton
 PASS: Daily Close restores Home (1440, 2960)
+PASS: Interactive button: WheelButton
+PASS: Daily and Wheel panels have matching center and dimensions (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Wheel (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Wheel (1440, 2960)
+PASS: Home stays visible behind popup: Wheel (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1440, 2960)
+PASS: Interactive button: LuckyCloseButton
 PASS: Interactive button: ShopButton
 PASS: Shop opens Bundle tab (1440, 2960)
 PASS: Shop reopen starts at first offer (1440, 2960)
@@ -1066,21 +1238,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -1090,6 +1247,7 @@ PASS: RewardPopupController.buttonLabel reference
 PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
+PASS: RewardPopupController.layout reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -1106,6 +1264,22 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference

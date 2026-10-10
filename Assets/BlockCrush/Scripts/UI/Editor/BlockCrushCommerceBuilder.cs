@@ -47,6 +47,7 @@ namespace BlockCrush.UI.Editor
             foreach(string name in new[]{"IntegrationStatus","ExtraSpinStatus"}) { var old=design.Find(name); if(old) UnityEngine.Object.DestroyImmediate(old.gameObject); }
             design.Find("WheelResult").gameObject.SetActive(false);
             var oldWallet=design.Find("WheelWallet"); if(oldWallet) UnityEngine.Object.DestroyImmediate(oldWallet.gameObject);
+            BlockCrushTextContrastBuilder.ApplyToScene(scene);
             EditorSceneManager.MarkSceneDirty(scene); EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
             return "Home saved: Figma reward modal, Daily 2/4/6/8/10 milestones, two Shop tabs and Editor demo purchases.";
         }

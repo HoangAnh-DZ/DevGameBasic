@@ -49,6 +49,8 @@ namespace BlockCrush.UI
             replayButton.interactable = game;
             var adventure = FindFirstObjectByType<AdventurePanelController>();
             backHomeButton.interactable = game || (adventure && adventure.IsOpen);
+            ReadableText.RefreshButtonArtwork(replayButton);
+            ReadableText.RefreshButtonArtwork(backHomeButton);
         }
         public void Replay() { if (!game) return; Close(); game.RestartGame(); }
         public void BackHome()

@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 112616842}
   - component: {fileID: 112616841}
   - component: {fileID: 112616840}
+  - component: {fileID: 112616843}
   m_Layer: 0
   m_Name: ComboLabel_4_70_4_69
   m_TagString: Untagged
@@ -318,7 +319,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112616838}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
@@ -368,6 +369,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112616838}
   m_CullTransparentMesh: 1
+--- !u!114 &112616843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112616838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &114086601
 GameObject:
   m_ObjectHideFlags: 0
@@ -7738,6 +7754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designSize: {x: 1440, y: 2959}
   availableSpace: 1
+  contentCenterOffset: {x: 0, y: 0}
 --- !u!1 &1878906117
 GameObject:
   m_ObjectHideFlags: 0

@@ -98,7 +98,8 @@ namespace BlockCrush.UI.Editor
             controller.Configure(popup.gameObject,disc,slots,tokens,spin,close,label.gameObject,timer.gameObject,time,result,status,config,audio,
                 Clip("WheelTick"),Clip("WheelStop"),Clip("WheelReward"));
             UnityEngine.Object.FindFirstObjectByType<MainMenuController>().ConfigureWheel(controller);
-            popup.gameObject.SetActive(false); EditorSceneManager.MarkSceneDirty(scene); EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
+            popup.gameObject.SetActive(false); BlockCrushTextContrastBuilder.ApplyToScene(scene);
+            EditorSceneManager.MarkSceneDirty(scene); EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
             return "Lucky Wheel saved. " + BlockCrushCommerceBuilder.Build();
         }
         static AudioClip Clip(string name)

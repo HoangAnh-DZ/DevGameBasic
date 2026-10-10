@@ -1263,6 +1263,7 @@ GameObject:
   - component: {fileID: 293272914}
   - component: {fileID: 293272913}
   - component: {fileID: 293272912}
+  - component: {fileID: 293272915}
   m_Layer: 0
   m_Name: AdventureMoves
   m_TagString: Untagged
@@ -1331,6 +1332,21 @@ RectTransform:
   m_AnchoredPosition: {x: 490, y: -240}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &293272915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293272911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &293560994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,6 +2106,7 @@ GameObject:
   - component: {fileID: 445241146}
   - component: {fileID: 445241148}
   - component: {fileID: 445241147}
+  - component: {fileID: 445241149}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -2129,7 +2146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.0627451, g: 0.12941177, b: 0.078431375, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2158,6 +2175,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445241145}
   m_CullTransparentMesh: 1
+--- !u!114 &445241149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445241145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
+  m_EffectDistance: {x: 1.5, y: -1.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &455969494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,6 +2292,7 @@ GameObject:
   - component: {fileID: 468592432}
   - component: {fileID: 468592434}
   - component: {fileID: 468592433}
+  - component: {fileID: 468592435}
   m_Layer: 0
   m_Name: AdventureReverseButtonAvailability
   m_TagString: Untagged
@@ -2328,6 +2361,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468592431}
   m_CullTransparentMesh: 1
+--- !u!114 &468592435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468592431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &471794596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designSize: {x: 1440, y: 2959}
   availableSpace: 1
+  contentCenterOffset: {x: 0, y: 0}
 --- !u!1 &631399708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3145,6 +3194,7 @@ GameObject:
   - component: {fileID: 671315150}
   - component: {fileID: 671315149}
   - component: {fileID: 671315148}
+  - component: {fileID: 671315151}
   m_Layer: 0
   m_Name: ComboLabel_4_70_4_69
   m_TagString: Untagged
@@ -3178,7 +3228,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671315146}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
   m_Name: 
@@ -3228,6 +3278,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671315146}
   m_CullTransparentMesh: 1
+--- !u!114 &671315151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671315146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &672220890
 GameObject:
   m_ObjectHideFlags: 0
@@ -4886,6 +4951,7 @@ GameObject:
   - component: {fileID: 1060309653}
   - component: {fileID: 1060309654}
   - component: {fileID: 1060309655}
+  - component: {fileID: 1060309656}
   m_Layer: 0
   m_Name: AdventureTarget
   m_TagString: Untagged
@@ -4954,6 +5020,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 100
+--- !u!114 &1060309656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060309652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1083263124
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,6 +5410,7 @@ GameObject:
   - component: {fileID: 1136656805}
   - component: {fileID: 1136656806}
   - component: {fileID: 1136656807}
+  - component: {fileID: 1136656808}
   m_Layer: 0
   m_Name: AdventureProgressScore
   m_TagString: Untagged
@@ -5397,6 +5479,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!114 &1136656808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136656804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1140738390
 GameObject:
   m_ObjectHideFlags: 0
@@ -7815,6 +7912,7 @@ GameObject:
   - component: {fileID: 1503772649}
   - component: {fileID: 1503772651}
   - component: {fileID: 1503772650}
+  - component: {fileID: 1503772652}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -7854,7 +7952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.0627451, g: 0.12941177, b: 0.078431375, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7883,6 +7981,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503772648}
   m_CullTransparentMesh: 1
+--- !u!114 &1503772652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503772648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
+  m_EffectDistance: {x: 1.5, y: -1.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1514547878
 GameObject:
   m_ObjectHideFlags: 0
@@ -8656,6 +8769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designSize: {x: 1433, y: 2971}
   availableSpace: 1
+  contentCenterOffset: {x: 0, y: 0}
 --- !u!1 &1599269843
 GameObject:
   m_ObjectHideFlags: 0
@@ -8943,6 +9057,7 @@ GameObject:
   - component: {fileID: 1610758162}
   - component: {fileID: 1610758163}
   - component: {fileID: 1610758164}
+  - component: {fileID: 1610758165}
   m_Layer: 0
   m_Name: AdventureBestScore
   m_TagString: Untagged
@@ -9011,6 +9126,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!114 &1610758165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610758161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!114 &1618294607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,6 +9600,7 @@ GameObject:
   - component: {fileID: 1703340865}
   - component: {fileID: 1703340867}
   - component: {fileID: 1703340866}
+  - component: {fileID: 1703340868}
   m_Layer: 0
   m_Name: AdventureThirdBoosterButtonAvailability
   m_TagString: Untagged
@@ -9538,6 +9669,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703340864}
   m_CullTransparentMesh: 1
+--- !u!114 &1703340868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703340864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1737983102
 GameObject:
   m_ObjectHideFlags: 0
@@ -10320,6 +10466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   designSize: {x: 1440, y: 2959}
   availableSpace: 1
+  contentCenterOffset: {x: 0, y: 0}
 --- !u!1 &1860388475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11392,6 +11539,7 @@ GameObject:
   - component: {fileID: 1921843421}
   - component: {fileID: 1921843423}
   - component: {fileID: 1921843422}
+  - component: {fileID: 1921843424}
   m_Layer: 0
   m_Name: AdventureBombButtonAvailability
   m_TagString: Untagged
@@ -11460,6 +11608,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921843420}
   m_CullTransparentMesh: 1
+--- !u!114 &1921843424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921843420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1942505307
 GameObject:
   m_ObjectHideFlags: 0
@@ -11898,6 +12061,7 @@ GameObject:
   - component: {fileID: 1977173698}
   - component: {fileID: 1977173699}
   - component: {fileID: 1977173700}
+  - component: {fileID: 1977173701}
   m_Layer: 0
   m_Name: AdventureLevelLabel
   m_TagString: Untagged
@@ -11966,6 +12130,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Level 01
+--- !u!114 &1977173701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977173697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.078431375, g: 0.047058824, b: 0.14117648, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1992656770
 GameObject:
   m_ObjectHideFlags: 0

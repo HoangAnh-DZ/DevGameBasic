@@ -46,6 +46,7 @@ namespace BlockCrush.UI.Editor
             serialized.FindProperty("finalBestText").objectReferenceValue = best;
             serialized.FindProperty("restartButton").objectReferenceValue = restart;
             serialized.ApplyModifiedPropertiesWithoutUndo();
+            BlockCrushTextContrastBuilder.ApplyToScene(scene);
             EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
             EditorSceneManager.OpenScene(BlockCrushMenuBuilder.HomePath);
             return "Game Over updated from Figma; existing manager, board, score and Best Score preserved.";
@@ -111,6 +112,7 @@ namespace BlockCrush.UI.Editor
                 Sprite("Buttons/AdventureMap_Unlocked"), Sprite("Buttons/AdventureMap_Locked"), label, scroll, states);
             menu.ConfigureAdventure(controller); EditorUtility.SetDirty(menu);
             settings.transform.SetAsLastSibling(); root.gameObject.SetActive(false);
+            BlockCrushTextContrastBuilder.ApplyToScene(scene);
             EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
             BuildAdventureGameplay(catalog);
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(BlockCrushMenuBuilder.HomePath, true), new EditorBuildSettingsScene(BlockCrushMenuBuilder.GameplayPath, true), new EditorBuildSettingsScene(AdventurePath, true) };
@@ -176,6 +178,7 @@ namespace BlockCrush.UI.Editor
             var nextLabel = Text("Label", next.transform, "▶ Level 2", 70, 20, 0, 500, 200);
             controller.Configure(game, catalog, navigation, settings.GetComponent<MoreSettingsController>(), level, progress, best, target, fill, hand, win.gameObject, title, score, next, nextLabel, moves);
             win.gameObject.SetActive(false); settings.transform.SetAsLastSibling();
+            BlockCrushTextContrastBuilder.ApplyToScene(scene);
             EditorSceneManager.SaveScene(scene); AssetDatabase.SaveAssets();
         }
 

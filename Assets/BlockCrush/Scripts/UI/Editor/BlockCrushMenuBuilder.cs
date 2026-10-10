@@ -69,6 +69,7 @@ namespace BlockCrush.UI.Editor
             flow.SetAsLastSibling();
             var eventSystem = new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
             eventSystem.GetComponent<InputSystemUIInputModule>().AssignDefaultActions();
+            BlockCrushTextContrastBuilder.ApplyToScene(home);
             EditorSceneManager.SaveScene(home, HomePath);
 
             var gameplay = EditorSceneManager.OpenScene(GameplayPath, OpenSceneMode.Single);
@@ -79,6 +80,7 @@ namespace BlockCrush.UI.Editor
             var settingsButton = gameCanvas.transform.Find("SafeArea/TopHUD/Settings").GetComponent<Button>();
             settingsButton.onClick = new Button.ButtonClickedEvent(); UnityEventTools.AddPersistentListener(settingsButton.onClick, gameSettings.Open);
             settingsButton.GetComponent<Image>().sprite = Sprite("Icons/Icon_Settings");
+            BlockCrushTextContrastBuilder.ApplyToScene(gameplay);
             EditorSceneManager.SaveScene(gameplay);
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(HomePath, true), new EditorBuildSettingsScene(GameplayPath, true) };
             EditorSceneManager.OpenScene(HomePath, OpenSceneMode.Single);
@@ -172,6 +174,7 @@ namespace BlockCrush.UI.Editor
             var group = transition.gameObject.AddComponent<CanvasGroup>(); group.alpha = 0; group.blocksRaycasts = false;
             navigation.Configure(group, audio);
             settingsRoot.gameObject.SetActive(false); moreRoot.gameObject.SetActive(false); infoRoot.gameObject.SetActive(false);
+            BlockCrushTextContrastBuilder.ApplyToHierarchy(root.gameObject);
             return root;
         }
 

@@ -51,6 +51,7 @@ namespace BlockCrush.UI.Editor
                 if(game) ConfigureGameplay(game,audio,font);
                 if(path==BlockCrushScreenBuilder.AdventurePath) ConfigureHome(audio.GetComponent<SceneNavigationController>(),material);
                 AddClicks(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include,FindObjectsSortMode.None),audio);
+                BlockCrushTextContrastBuilder.ApplyToScene(scene);
                 EditorSceneManager.MarkSceneDirty(scene); EditorSceneManager.SaveScene(scene);
             }
             AssetDatabase.SaveAssets(); EditorSceneManager.OpenScene(BlockCrushMenuBuilder.HomePath);
