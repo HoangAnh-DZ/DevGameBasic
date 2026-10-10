@@ -1,0 +1,98 @@
+{
+  "fileKey": "kbvndvYEq7nSdu8mPbacS1",
+  "assets": [
+    {
+      "node": "7:16498",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Background.png",
+      "source": "Figma node background export; full-screen cover"
+    },
+    {
+      "node": "7:16502",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Panel.png",
+      "source": "Original transparent image fill"
+    },
+    {
+      "node": "7:31109",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Disc.png",
+      "source": "Original transparent image fill; rotating"
+    },
+    {
+      "node": "7:31125",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Hub.png",
+      "source": "Original transparent image fill; stationary"
+    },
+    {
+      "node": "7:31126",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Rim.png",
+      "source": "Original transparent image fill; stationary"
+    },
+    {
+      "node": "7:31127",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Pointer.png",
+      "source": "Original transparent image fill; exact crop via RectMask2D"
+    },
+    {
+      "node": "7:31148",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/SpinButton.png",
+      "source": "Original transparent image fill"
+    },
+    {
+      "node": "7:31086",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/TimerButton.png",
+      "source": "Original transparent image fill; used-spin variant"
+    },
+    {
+      "node": "7:31085",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Title.png",
+      "source": "Native outlined SVG export, rasterized without changing artwork"
+    },
+    {
+      "node": "7:16544",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Close.png",
+      "source": "Figma SVG, rasterized without changing artwork"
+    },
+    {
+      "node": "7:31118",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Coin50.png",
+      "source": "Original transparent image fill"
+    },
+    {
+      "node": "7:31119",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Coin1000.png",
+      "source": "Original transparent image fill"
+    },
+    {
+      "node": "7:31120 / 7:31121",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/CoinPile.png",
+      "source": "One original fill reused for both Figma rotations"
+    },
+    {
+      "node": "7:31122",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Coin100.png",
+      "source": "Original transparent image fill"
+    },
+    {
+      "node": "7:16540",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Plus.png",
+      "source": "Original transparent image fill; unavailable extra-spin marker"
+    },
+    {
+      "node": "7:16541",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Video.png",
+      "source": "Original transparent image fill; decorative status marker"
+    },
+    {
+      "node": "7:31087",
+      "path": "Assets/BlockCrush/Art/Figma/LuckyWheel/Clock.png",
+      "source": "Original transparent image fill"
+    }
+  ],
+  "reused": [
+    "Icons/Icon_Wheel.png (4:467 = 7:16503–16505 identical image hash)",
+    "Icons/Icon_AdventureBomb.png (7:1745 = 7:31139)",
+    "Icons/Icon_AdventureReverse.png (7:1770 = 7:31123)",
+    "Icons/Icon_AdventureBooster.png (7:1768 = 7:31138)"
+  ],
+  "text": "Montserrat Bold: sector amounts 54, Spin 90, countdown 72; original Figma rotations retained. Inter Extra Bold title rendered from original SVG.",
+  "notes": "Figma download_assets PNG exports flattened transparent parts against grey; used original transparent image fills and vector SVGs. No canvas screenshot used for interactive UI. Timer asset below the panel is implemented as its used-spin button state. Spare boom 9 outside the wheel is not a reward slot; actual sector artwork is boom 10."
+}

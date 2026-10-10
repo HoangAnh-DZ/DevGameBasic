@@ -1,0 +1,25 @@
+Adventure balance simulation
+Seeds per level/strategy: 150; seeds 0..149. Strategies: compact basic / prioritize lines and avoid cavities. No boosters, retries or board fixtures. Shared generator and scoring; legal 8x8 mask placement, three distinct shapes, refill only when all used.
+
+Level,Target,Moves,Strategy,WinRate,AvgScore,AvgMoves,NoFitLoss,MoveLoss
+1,100,22,Basic,93.3%,102.4,17.3,8,2
+1,100,22,Line,96.7%,104.6,16.6,3,2
+2,160,26,Basic,72.0%,154.4,23.3,16,26
+2,160,26,Line,86.7%,161.5,23.2,5,15
+3,230,30,Basic,23.3%,193.3,27.5,31,84
+3,230,30,Line,23.3%,206.5,28.7,14,101
+4,310,34,Basic,0.7%,221.8,30.1,40,109
+4,310,34,Line,5.3%,250.2,32.2,20,122
+5,400,38,Basic,0.0%,246.1,31.9,57,93
+5,400,38,Line,0.0%,274.5,34.4,33,117
+6,500,42,Basic,0.0%,247.3,31.8,87,63
+6,500,42,Line,0.0%,298.6,36.7,53,97
+7,610,46,Basic,0.0%,240.3,29.9,99,51
+7,610,46,Line,0.0%,319.8,37.3,61,89
+8,730,50,Basic,0.0%,235.7,29.1,115,35
+8,730,50,Line,0.0%,306.4,35.4,88,62
+9,860,54,Basic,0.0%,243.4,28.7,131,19
+9,860,54,Line,0.0%,319.9,36.0,106,44
+10,1000,58,Basic,0.0%,240.0,27.7,132,18
+10,1000,58,Line,0.0%,325.9,35.5,116,34
+Bot win rates describe these deterministic heuristics, not measured human difficulty. Calibration uses full legal-play score distributions; metrics stop at the first target-crossing move. Independent seeds are required after tuning.

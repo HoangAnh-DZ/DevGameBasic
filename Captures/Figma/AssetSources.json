@@ -1,0 +1,260 @@
+{
+  "fileKey": "kbvndvYEq7nSdu8mPbacS1",
+  "assets": [
+    {
+      "node": "4:153",
+      "path": "Icons/Icon_Close.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:128",
+      "path": "Icons/Icon_BackHome.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:91",
+      "path": "Icons/Icon_Arrow.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:89",
+      "path": "Misc/AppIcon.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:90",
+      "path": "Misc/ShareIcon.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:367",
+      "path": "Icons/Icon_Shop.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:467",
+      "path": "Icons/Icon_Wheel.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:622",
+      "path": "Icons/Icon_Challenge.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:651",
+      "path": "Icons/Icon_Calendar.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:646",
+      "path": "Misc/Label_UnderTheSea.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:647",
+      "path": "Misc/Label_Time.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:360",
+      "path": "Misc/Label_Classic.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:650",
+      "path": "Misc/Label_Adventure.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:121",
+      "path": "Misc/Label_Settings.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:122",
+      "path": "Misc/Label_BGM.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:123",
+      "path": "Misc/Label_Sound.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:124",
+      "path": "Misc/Label_Vibration.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:118",
+      "path": "Misc/Label_BackHome.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:119",
+      "path": "Misc/Label_MoreSettings.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:120",
+      "path": "Misc/Label_Replay.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:114",
+      "path": "Misc/Label_Play.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:117",
+      "path": "Misc/Label_Back.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:127",
+      "path": "Misc/Label_Set.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:96",
+      "path": "Misc/Label_MoreTitle.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:97",
+      "path": "Misc/Label_Contact.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:98",
+      "path": "Misc/Label_AppName.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:100",
+      "path": "Misc/Label_Share.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:101",
+      "path": "Misc/Label_Terms.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:102",
+      "path": "Misc/Label_Privacy.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:103",
+      "path": "Misc/Label_About.png",
+      "source": "Figma node export, transparent PNG"
+    },
+    {
+      "node": "4:283",
+      "path": "Backgrounds/BG_Home.png",
+      "source": "Figma vector/compound export"
+    },
+    {
+      "node": "4:694",
+      "path": "Logo/Logo_BlockMatchBlast.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:106",
+      "path": "Panels/Panel_Settings.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:84",
+      "path": "Panels/Panel_MoreSettings.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:363",
+      "path": "Icons/Icon_Settings.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:634",
+      "path": "Misc/UnderTheSea_Artwork.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:634",
+      "path": "Misc/UnderTheSea_Crop.png",
+      "source": "Figma vector/compound export"
+    },
+    {
+      "node": "4:645",
+      "path": "Panels/Panel_EventTitle.png",
+      "source": "Figma vector/compound export"
+    },
+    {
+      "node": "4:637",
+      "path": "Panels/Panel_Event.png",
+      "source": "Figma vector/compound export"
+    },
+    {
+      "node": "4:113",
+      "path": "Buttons/Btn_Green.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:129",
+      "path": "Icons/Icon_SettingsRow.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:130",
+      "path": "Icons/Icon_Replay.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:131",
+      "path": "Icons/Icon_Vibration.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:132",
+      "path": "Icons/Icon_Sound.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:133",
+      "path": "Icons/Icon_Music.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:134",
+      "path": "Settings/Toggle_On.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:135",
+      "path": "Settings/Toggle_Off.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:649",
+      "path": "Buttons/Btn_Orange.png",
+      "source": "Original Figma raster source"
+    },
+    {
+      "node": "4:107",
+      "path": "Settings/Separator_Settings.png",
+      "source": "Figma vector rasterized with alpha"
+    },
+    {
+      "node": "4:85",
+      "path": "Settings/Separator_MoreSettings.png",
+      "source": "Figma vector rasterized with alpha"
+    },
+    {
+      "node": "4:684",
+      "path": "Icons/Icon_Notification.png",
+      "source": "Figma vector rasterized with alpha"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "fileKey": "kbvndvYEq7nSdu8mPbacS1",
+  "method": "Direct Figma browser UI export; Figma MCP not used.",
+  "assets": [
+    {
+      "node": "4:2",
+      "path": "Backgrounds/BG_GameOver.png",
+      "source": "Asset 27-8.png",
+      "width": 1440,
+      "height": 2959
+    },
+    {
+      "node": "7:101",
+      "path": "Panels/Panel_GameOverScore.png",
+      "source": "Asset 80-8.png",
+      "width": 1088,
+      "height": 974
+    },
+    {
+      "node": "4:4",
+      "path": "Misc/Label_GameOver.png",
+      "source": "Group.png",
+      "width": 919,
+      "height": 131
+    },
+    {
+      "node": "4:27",
+      "path": "Misc/Label_Score.png",
+      "source": "Group (1).png",
+      "width": 226,
+      "height": 47
+    },
+    {
+      "node": "4:34",
+      "path": "Buttons/Btn_GameOverPlay.png",
+      "source": "Group 74.png",
+      "width": 490,
+      "height": 180
+    },
+    {
+      "node": "4:37",
+      "path": "Buttons/Btn_GameOverHome.png",
+      "source": "Group 75.png",
+      "width": 499,
+      "height": 183
+    },
+    {
+      "node": "7:1657",
+      "path": "Backgrounds/BG_Adventure.png",
+      "source": "ChatGPT Image 16_39_25 22 thg 5, 2026 1.png",
+      "width": 1433,
+      "height": 2971
+    },
+    {
+      "node": "7:1778",
+      "path": "Gameplay/Adventure_BoardFrame.png",
+      "source": "ChatGPT Image 16_25_01 22 thg 5, 2026 2.png",
+      "width": 1373,
+      "height": 1374
+    },
+    {
+      "node": "7:1745",
+      "path": "Icons/Icon_AdventureBomb.png",
+      "source": "boom 11.png",
+      "width": 112,
+      "height": 110
+    },
+    {
+      "node": "7:1770",
+      "path": "Icons/Icon_AdventureReverse.png",
+      "source": "reverse 8.png",
+      "width": 110,
+      "height": 110
+    },
+    {
+      "node": "7:1768",
+      "path": "Icons/Icon_AdventureBooster.png",
+      "source": "ChatGPT Image 09_36_09 22 thg 5, 2026 (1) 8.png",
+      "width": 96,
+      "height": 92
+    },
+    {
+      "node": "7:1743",
+      "path": "Buttons/Btn_AdventureBooster.png",
+      "source": "ChatGPT Image 16_06_47 22 thg 5, 2026 (2) 1.png",
+      "width": 288,
+      "height": 147
+    },
+    {
+      "node": "7:1738",
+      "path": "Gameplay/Adventure_ProgressFill.png",
+      "source": "ChatGPT Image 09_46_13 22 thg 5, 2026 (2) 1.png",
+      "width": 221,
+      "height": 71
+    },
+    {
+      "node": "7:1737",
+      "path": "Gameplay/Adventure_ProgressFrame.png",
+      "source": "ChatGPT Image 09_46_12 22 thg 5, 2026 (1) 1.png",
+      "width": 811,
+      "height": 108
+    },
+    {
+      "node": "7:1739",
+      "path": "Gameplay/Adventure_TargetRing.png",
+      "source": "ChatGPT Image 09_46_13 22 thg 5, 2026 (3) 1.png",
+      "width": 196,
+      "height": 201
+    },
+    {
+      "node": "7:1762",
+      "path": "Icons/Icon_AdventureBest.png",
+      "source": "ChatGPT Image 16_06_47 22 thg 5, 2026 (1) 1.png",
+      "width": 168,
+      "height": 127
+    },
+    {
+      "node": "7:1760",
+      "path": "Icons/Icon_AdventureSettings.png",
+      "source": "ChatGPT Image 09_51_24 22 thg 5, 2026 (2) 2.png",
+      "width": 121,
+      "height": 133
+    },
+    {
+      "node": "7:1740",
+      "path": "Misc/Label_AdventureLevel.png",
+      "source": "Level 02.png",
+      "width": 425,
+      "height": 92
+    },
+    {
+      "node": "7:1742",
+      "path": "Misc/Label_AdventureProgress.png",
+      "source": "120.png",
+      "width": 128,
+      "height": 65
+    },
+    {
+      "node": "7:1747",
+      "path": "Misc/Label_AdventureTarget.png",
+      "source": "368.png",
+      "width": 140,
+      "height": 64
+    },
+    {
+      "node": "7:1772",
+      "path": "Misc/Label_AdventureCount.png",
+      "source": "2 (1).png",
+      "width": 60,
+      "height": 75
+    },
+    {
+      "node": "7:1711",
+      "path": "Gameplay/Adventure_Hand.png",
+      "source": "Asset 79-8.png",
+      "width": 180,
+      "height": 185
+    },
+    {
+      "node": "7:1721",
+      "path": "Gameplay/Adventure_OrangeTile.png",
+      "source": "Layer 8 2.png",
+      "width": 162,
+      "height": 162
+    },
+    {
+      "node": "7:1750",
+      "path": "Gameplay/Adventure_GreenPiece.png",
+      "source": "Group 604.png",
+      "width": 392,
+      "height": 113
+    },
+    {
+      "node": "7:1715",
+      "path": "Gameplay/Adventure_RedPiece.png",
+      "source": "Group 605.png",
+      "width": 206,
+      "height": 113
+    }
+  ],
+  "reused": [
+    {
+      "node": "7:1671",
+      "path": "Assets/UI/Group.png"
+    },
+    {
+      "node": "7:1727",
+      "source": "Group 600.png",
+      "reuse": "Four instances of Adventure_OrangeTile.png compose the original T layout."
+    }
+  ]
+}

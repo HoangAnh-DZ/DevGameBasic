@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0a12e02e5c0fd4d86346f2918716d7, type: 3}
+  m_Name: LuckyWheel
+  m_EditorClassIdentifier: 
+  rewards:
+  - kind: 0
+    amount: 1000
+    weight: 2
+  - kind: 0
+    amount: 300
+    weight: 10
+  - kind: 0
+    amount: 100
+    weight: 24
+  - kind: 1
+    amount: 2
+    weight: 6
+  - kind: 0
+    amount: 50
+    weight: 35
+  - kind: 0
+    amount: 150
+    weight: 15
+  - kind: 2
+    amount: 2
+    weight: 4
+  - kind: 3
+    amount: 2
+    weight: 4
+  duration: 5.2
+  turns: 6

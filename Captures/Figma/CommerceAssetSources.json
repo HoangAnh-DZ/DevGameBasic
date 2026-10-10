@@ -1,0 +1,183 @@
+{
+  "fileKey": "kbvndvYEq7nSdu8mPbacS1",
+  "reviewed": "2026-10-10",
+  "nodes": [
+    {
+      "name": "Background",
+      "id": "7:16499",
+      "method": "opaque cropped node export"
+    },
+    {
+      "name": "DailyPanel",
+      "id": "7:16542",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "DailyRow",
+      "id": "7:31026",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "DailyCalendar",
+      "id": "7:16557",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "DailyCoinTile",
+      "id": "7:31037",
+      "method": "native SVG rasterization"
+    },
+    {
+      "name": "TaskTrack",
+      "id": "7:31128",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "TaskFill",
+      "id": "7:31133",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ClaimGreen",
+      "id": "7:31140",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ClaimGrey",
+      "id": "7:31142",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ChestBase",
+      "id": "7:31151",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ChestLid",
+      "id": "7:31153",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "BundleCard",
+      "id": "7:16558",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ItemCard",
+      "id": "7:16559",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "Awning",
+      "id": "7:31094",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "InventoryPill",
+      "id": "7:16509",
+      "method": "native SVG rasterization"
+    },
+    {
+      "name": "BundleContents",
+      "id": "7:30974",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ItemContents",
+      "id": "7:30981",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "BuyGreen",
+      "id": "7:31012",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "BundleRibbon",
+      "id": "7:31021",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "StarterCoins",
+      "id": "7:30969",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ExtraCoins",
+      "id": "7:30972",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "UltraCoins",
+      "id": "7:30970",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "ValueCoins",
+      "id": "7:30971",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "SpecialCoins",
+      "id": "7:16569",
+      "method": "native SVG rasterization"
+    },
+    {
+      "name": "Sale",
+      "id": "7:30973",
+      "method": "original transparent image fill"
+    },
+    {
+      "name": "NoAds",
+      "id": "7:31150",
+      "method": "original transparent image fill"
+    }
+  ],
+  "extra": [
+    {
+      "name": "RewardOK",
+      "id": "7:944",
+      "method": "original transparent plain cyan button fill, distinct from Home button icon"
+    },
+    {
+      "name": "RewardFrame",
+      "id": "7:810",
+      "method": "native border paths; inner contour used as transparent cutout"
+    },
+    {
+      "name": "SpecialChest",
+      "id": "7:16644",
+      "method": "native Figma PNG export with alpha"
+    },
+    {
+      "name": "DailyTitle",
+      "id": "7:31084",
+      "method": "native outlined text SVG"
+    },
+    {
+      "name": "ShopTitle",
+      "id": "7:31096",
+      "method": "native outlined text SVG"
+    }
+  ],
+  "reuse": [
+    "LuckyWheel/CoinPile.png (7:943 same image hash)",
+    "LuckyWheel/Coin50.png (daily and balance icons)",
+    "LuckyWheel/Clock.png",
+    "LuckyWheel/Close.png",
+    "LuckyWheel/Video.png (green completion check)",
+    "Icons/Icon_AdventureBomb.png",
+    "Icons/Icon_AdventureBooster.png",
+    "Icons/Icon_AdventureReverse.png"
+  ],
+  "crops": {
+    "ItemCard": "Original CROP y=0.2676348686, h=0.732365191; native pixels 0,258,2662,706",
+    "BundleRibbon": "Figma CSS image overflow: native pixels 43,20,1275,216",
+    "BuyGreen": "Figma CSS image overflow: native pixels 15,41,615,242"
+  },
+  "rules": {
+    "daily": "Milestones 2/4/6/8/10 finished Adventure rounds; accepted move required; 100 coins each; UTC reset; chest reflects five claims, no unspecified extra payout",
+    "shop": "Unity Editor demo explicitly authorized by user; confirmation/cancel, separate Editor wallet key, no real payment or ad SDK; exact Figma offer amounts",
+    "lastOffer": "Figma 7:31055 says 119.000; displayed as 119.000 ₫, demo only"
+  }
+}

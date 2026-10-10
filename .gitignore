@@ -1,0 +1,52 @@
+# Unity-generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+
+# Local tooling and credentials
+/.codex/
+/.agents/
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+.DS_Store
+Thumbs.db
+
+# Intermediate asset export helpers; retain reports, artwork provenance and captures
+/Captures/**/*.b64
+/Captures/**/*.cjs
+/Captures/Figma/DailyTasks_LayoutReview.png
+
+# Unity crash output and package/build artifacts
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app

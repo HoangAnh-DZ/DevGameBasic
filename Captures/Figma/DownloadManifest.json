@@ -1,0 +1,290 @@
+[
+  {
+    "node": "4:153",
+    "path": "Icons/Icon_Close.png",
+    "url": "https://www.figma.com/api/mcp/asset/7aba4cf2-9fe2-4646-90ea-6d7d29ff083a.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:128",
+    "path": "Icons/Icon_BackHome.png",
+    "url": "https://www.figma.com/api/mcp/asset/6fb593dd-3469-4773-9edc-d5ea77b6b1b9.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:91",
+    "path": "Icons/Icon_Arrow.png",
+    "url": "https://www.figma.com/api/mcp/asset/fd397a3e-41a6-40b9-89b0-81a43cd4f141.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:89",
+    "path": "Misc/AppIcon.png",
+    "url": "https://www.figma.com/api/mcp/asset/2f302ca2-f3ae-4fc4-93fb-b89bbdf5b794.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:90",
+    "path": "Misc/ShareIcon.png",
+    "url": "https://www.figma.com/api/mcp/asset/7bc043a0-8caf-4513-8f6f-27306208dd57.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:367",
+    "path": "Icons/Icon_Shop.png",
+    "url": "https://www.figma.com/api/mcp/asset/e3d7d042-50d0-443d-9773-4d199fc71384.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:467",
+    "path": "Icons/Icon_Wheel.png",
+    "url": "https://www.figma.com/api/mcp/asset/9178dcb4-47df-4673-8148-069ccb3b749d.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:622",
+    "path": "Icons/Icon_Challenge.png",
+    "url": "https://www.figma.com/api/mcp/asset/f1cfcfae-f6ba-497f-b5c5-b84e11c37305.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:651",
+    "path": "Icons/Icon_Calendar.png",
+    "url": "https://www.figma.com/api/mcp/asset/7533f0f0-a58b-4fe3-8f60-b825c3ba4dab.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:646",
+    "path": "Misc/Label_UnderTheSea.png",
+    "url": "https://www.figma.com/api/mcp/asset/5e7a5f5e-097c-4d62-90d1-87d6cb84eb50.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:647",
+    "path": "Misc/Label_Time.png",
+    "url": "https://www.figma.com/api/mcp/asset/9ff19adc-791e-4e2b-8e7e-511ab2bbcd0e.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:360",
+    "path": "Misc/Label_Classic.png",
+    "url": "https://www.figma.com/api/mcp/asset/472c737c-2fc1-4d48-82ef-8e5b40610c46.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:650",
+    "path": "Misc/Label_Adventure.png",
+    "url": "https://www.figma.com/api/mcp/asset/98a6dd3f-66bc-4c8d-9831-3bd31749e5fa.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:121",
+    "path": "Misc/Label_Settings.png",
+    "url": "https://www.figma.com/api/mcp/asset/b2673dd9-b738-4a7d-9112-735a2468978c.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:122",
+    "path": "Misc/Label_BGM.png",
+    "url": "https://www.figma.com/api/mcp/asset/cdbf4d50-0448-40db-837a-93f4a88679bc.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:123",
+    "path": "Misc/Label_Sound.png",
+    "url": "https://www.figma.com/api/mcp/asset/bc3b8f7b-af58-4f9c-a058-6b95294cb23d.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:124",
+    "path": "Misc/Label_Vibration.png",
+    "url": "https://www.figma.com/api/mcp/asset/cee802a1-a666-4ed2-a53c-bd6385d14b40.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:118",
+    "path": "Misc/Label_BackHome.png",
+    "url": "https://www.figma.com/api/mcp/asset/25b66bff-e139-4537-839e-df775393f11f.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:119",
+    "path": "Misc/Label_MoreSettings.png",
+    "url": "https://www.figma.com/api/mcp/asset/19a4310e-87f7-42ed-816f-04a23b8fcf5e.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:120",
+    "path": "Misc/Label_Replay.png",
+    "url": "https://www.figma.com/api/mcp/asset/fe9b4f0d-0afb-41b8-b158-aeb04b752a85.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:114",
+    "path": "Misc/Label_Play.png",
+    "url": "https://www.figma.com/api/mcp/asset/98ce2ccd-ec56-437f-b627-bf6fc99cb66a.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:117",
+    "path": "Misc/Label_Back.png",
+    "url": "https://www.figma.com/api/mcp/asset/cbbddf17-ff4a-4f88-a78c-32428dbac5c0.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:127",
+    "path": "Misc/Label_Set.png",
+    "url": "https://www.figma.com/api/mcp/asset/b5676c62-116d-4ab4-b20b-6783c3d1aa1a.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:96",
+    "path": "Misc/Label_MoreTitle.png",
+    "url": "https://www.figma.com/api/mcp/asset/fed80677-961e-4ce3-a2c5-d6b0017c05b5.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:97",
+    "path": "Misc/Label_Contact.png",
+    "url": "https://www.figma.com/api/mcp/asset/37e8e862-b0c6-456f-a3cc-f1e452a9eb18.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:98",
+    "path": "Misc/Label_AppName.png",
+    "url": "https://www.figma.com/api/mcp/asset/628ac984-0129-4c63-b225-d88326576417.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:100",
+    "path": "Misc/Label_Share.png",
+    "url": "https://www.figma.com/api/mcp/asset/28ac8072-6c49-42cc-b2b5-b4793db4f9a2.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:101",
+    "path": "Misc/Label_Terms.png",
+    "url": "https://www.figma.com/api/mcp/asset/cc644350-98d7-4732-b85d-45d90c6c571a.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:102",
+    "path": "Misc/Label_Privacy.png",
+    "url": "https://www.figma.com/api/mcp/asset/515e4bea-e17c-423b-9295-994a0a41e4fa.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:103",
+    "path": "Misc/Label_About.png",
+    "url": "https://www.figma.com/api/mcp/asset/e7bbd847-a767-40af-80c4-c7354aa7d4b0.png",
+    "source": "Figma node export, transparent PNG"
+  },
+  {
+    "node": "4:280",
+    "path": "Backgrounds/BG_Home.png",
+    "url": "https://www.figma.com/api/mcp/asset/e2b8a747-c6f8-4320-8b66-44dd54cc6422.png",
+    "source": "Figma vector/compound export"
+  },
+  {
+    "node": "4:694",
+    "path": "Logo/Logo_BlockMatchBlast.png",
+    "url": "https://www.figma.com/api/mcp/asset/cb2066a6-7c33-447f-9314-4684418a5f92/ba4c4.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:106",
+    "path": "Panels/Panel_Settings.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/604a9.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:84",
+    "path": "Panels/Panel_MoreSettings.png",
+    "url": "https://www.figma.com/api/mcp/asset/b9b4d576-8cc0-4d60-ac35-e81566399da1/7b91b.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:363",
+    "path": "Icons/Icon_Settings.png",
+    "url": "https://www.figma.com/api/mcp/asset/7c4f197e-ccec-416f-8722-111d2e197b47",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:634",
+    "path": "Misc/UnderTheSea_Artwork.png",
+    "url": "https://www.figma.com/api/mcp/asset/a31efac9-ffa8-4967-95d6-0ce740da62bc",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:634",
+    "path": "Misc/UnderTheSea_Crop.png",
+    "url": "https://www.figma.com/api/mcp/asset/399f9416-55be-4b40-a338-fbae6cc70807.png",
+    "source": "Figma vector/compound export"
+  },
+  {
+    "node": "4:645",
+    "path": "Panels/Panel_EventTitle.png",
+    "url": "https://www.figma.com/api/mcp/asset/c52802cd-4b41-495b-ba2b-0ff54a0c9a49.png",
+    "source": "Figma vector/compound export"
+  },
+  {
+    "node": "4:637",
+    "path": "Panels/Panel_Event.png",
+    "url": "https://www.figma.com/api/mcp/asset/9e6b1e27-00e4-4bcd-9c6a-fd9e8adc6d13.png",
+    "source": "Figma vector/compound export"
+  },
+  {
+    "node": "4:113",
+    "path": "Buttons/Btn_Green.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/83f5d.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:129",
+    "path": "Icons/Icon_SettingsRow.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/60228.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:130",
+    "path": "Icons/Icon_Replay.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/b94db.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:131",
+    "path": "Icons/Icon_Vibration.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/c7b60.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:132",
+    "path": "Icons/Icon_Sound.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/193e6.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:133",
+    "path": "Icons/Icon_Music.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/18f68.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:134",
+    "path": "Settings/Toggle_On.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/097f2.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:135",
+    "path": "Settings/Toggle_Off.png",
+    "url": "https://www.figma.com/api/mcp/asset/bd1ad984-6c0d-4596-b011-39590c9f2b1f/0b2a9.png",
+    "source": "Original Figma raster source"
+  },
+  {
+    "node": "4:649",
+    "path": "Buttons/Btn_Orange.png",
+    "url": "https://www.figma.com/api/mcp/asset/c7c7fe5c-fca2-4e4e-be75-4834d263be3d/73af1.png",
+    "source": "Original Figma raster source"
+  }
+]

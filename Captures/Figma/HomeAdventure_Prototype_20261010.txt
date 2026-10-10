@@ -1,0 +1,236 @@
+- application
+- status: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+- status
+- region "Comments on canvas":
+  - button "Create new comment"
+- region "Left sidebar":
+  - toolbar "Navigation Bar":
+    - button "Main menu":
+    - separator
+    - button "File" [expanded]:
+      - generic: File
+    - button "Agents":
+      - generic: Agents
+    - button "Assets":
+      - generic: Assets
+    - button "Tools":
+      - generic: Tools
+    - separator
+    - button "Variables":
+      - generic: Variables
+  - button "Untitled, file name": Untitled
+  - generic: File name
+  - button "Edit file menu":
+  - button "Minimize UI":
+  - link "Drafts":
+    - /url: https://www.figma.com/files/team/1492079371006570124/project/365525021
+  - heading "Pages Find Add new page" [level=2]:
+    - button "Pages" [expanded]:
+      - generic: Pages
+    - button "Find":
+    - button "Add new page":
+  - grid:
+    - row "Page 1":
+      - gridcell "Page 1":
+        - button "Page 1":
+          - generic: Page 1
+  - slider "Resize handle"
+  - heading "Layers" [level=2]:
+    - button "Layers" [expanded]:
+      - generic: Layers
+  - treegrid:
+    - row "$ 4.99":
+      - gridcell:
+      - gridcell "$ 4.99":
+        - generic: $ 4.99
+    - row "$ 4.99":
+      - gridcell:
+      - gridcell "$ 4.99":
+        - generic: $ 4.99
+    - row "$ 4.99":
+      - gridcell:
+      - gridcell "$ 4.99":
+        - generic: $ 4.99
+    - row "$ 4.99":
+      - gridcell:
+      - gridcell "$ 4.99":
+        - generic: $ 4.99
+    - row "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 12":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 12":
+        - generic: ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 12
+    - row "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 11":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 11":
+        - generic: ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 11
+    - row "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 10":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 10":
+        - generic: ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 10
+    - row "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 9":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 9":
+        - generic: ChatGPT Image 10_47_16 22 thg 5, 2026 (9) 9
+    - row "8da6c290-3a3f-4436-a789-91229cf1eee2 4":
+      - gridcell:
+      - gridcell "8da6c290-3a3f-4436-a789-91229cf1eee2 4":
+        - generic: 8da6c290-3a3f-4436-a789-91229cf1eee2 4
+    - row "8da6c290-3a3f-4436-a789-91229cf1eee2 3":
+      - gridcell:
+      - gridcell "8da6c290-3a3f-4436-a789-91229cf1eee2 3":
+        - generic: 8da6c290-3a3f-4436-a789-91229cf1eee2 3
+    - row "8da6c290-3a3f-4436-a789-91229cf1eee22 2":
+      - gridcell:
+      - gridcell "8da6c290-3a3f-4436-a789-91229cf1eee22 2":
+        - generic: 8da6c290-3a3f-4436-a789-91229cf1eee22 2
+    - row "8da6c290-3a3f-4436-a789-91229cf1eee22 1":
+      - gridcell:
+      - gridcell "8da6c290-3a3f-4436-a789-91229cf1eee22 1":
+        - generic: 8da6c290-3a3f-4436-a789-91229cf1eee22 1
+    - row "ChatGPT Image 16_11_52 22 thg 5, 2026 (2) 3":
+      - gridcell:
+      - gridcell "ChatGPT Image 16_11_52 22 thg 5, 2026 (2) 3":
+        - generic: ChatGPT Image 16_11_52 22 thg 5, 2026 (2) 3
+    - row "SPIN":
+      - gridcell:
+      - gridcell "SPIN":
+        - generic: SPIN
+    - row "Group 594 1":
+      - gridcell:
+      - gridcell "Group 594 1":
+        - generic: Group 594 1
+    - row "ChatGPT Image 11_19_35 22 thg 5, 2026 (5) 1":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_35 22 thg 5, 2026 (5) 1":
+        - generic: ChatGPT Image 11_19_35 22 thg 5, 2026 (5) 1
+    - row "ChatGPT Image 10_29_03 22 thg 5, 2026 (2) 2":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_29_03 22 thg 5, 2026 (2) 2":
+        - generic: ChatGPT Image 10_29_03 22 thg 5, 2026 (2) 2
+    - row "Claim":
+      - gridcell:
+      - gridcell "Claim":
+        - generic: Claim
+    - row "Claim":
+      - gridcell:
+      - gridcell "Claim":
+        - generic: Claim
+    - row "Claim":
+      - gridcell:
+      - gridcell "Claim":
+        - generic: Claim
+    - row "ChatGPT Image 10_29_03 22 thg 5, 2026 (3) 2":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_29_03 22 thg 5, 2026 (3) 2":
+        - generic: ChatGPT Image 10_29_03 22 thg 5, 2026 (3) 2
+    - row "ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 3":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 3":
+        - generic: ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 3
+    - row "ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 2":
+      - gridcell:
+      - gridcell "ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 2":
+        - generic: ChatGPT Image 10_29_02 22 thg 5, 2026 (1) 2
+    - row "boom 10":
+      - gridcell:
+      - gridcell "boom 10":
+        - generic: boom 10
+    - row "ChatGPT Image 09_36_09 22 thg 5, 2026 (1) 7":
+      - gridcell:
+      - gridcell "ChatGPT Image 09_36_09 22 thg 5, 2026 (1) 7":
+        - generic: ChatGPT Image 09_36_09 22 thg 5, 2026 (1) 7
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 5":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 5":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 5
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 4":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 4":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 4
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 3":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 3":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 3
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 2":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 2":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 2
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 1":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 1":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4)2 1
+    - row "ChatGPT Image 11_19_34 22 thg 5, 2026 (4) 7":
+      - gridcell:
+      - gridcell "ChatGPT Image 11_19_34 22 thg 5, 2026 (4) 7":
+        - generic: ChatGPT Image 11_19_34 22 thg 5, 2026 (4) 7
+  - slider "Resize handle"
+- region "Right sidebar":
+  - button "Multiplayer tools":
+    - generic: D
+  - group "Prototype view":
+    - button "Present":
+    - button "Prototype view":
+  - button "Share"
+  - tablist:
+    - tab "Design":
+      - generic: Design
+      - generic: Design
+    - tab "Prototype" [active] [selected]:
+      - generic: Prototype
+      - generic: Prototype
+  - button "6%, zoom and view options":
+    - text: 6%
+  - generic: Add interactivity with Make
+  - button "Close":
+  - generic "Mock video of sample images shuffling"
+  - text: Figma Make opens up new ways to prototype—from responsive components to micro-interactions.
+  - button "Try Figma Make":
+    - generic: Try Figma Make
+  - button "Interactions":
+    - generic: Interactions
+  - button "Show prototype settings":
+    - generic: Show prototype settings
+  - text: Creating a connection
+  - button "Close":
+  - generic: Select a frame or object in a frame and use the circular node to drag a connection to another frame.
+  - text: Running your prototype
+  - button "Close":
+  - generic: Use the play button in the toolbar to play your prototype. If there are no connections, the play button can be used to play a presentation of your frames.
+  - slider "Resize handle"
+- region "Application toolbar":
+  - toolbar "Editor":
+    - group "Move":
+      - button "Move" [pressed]:
+      - button "Move tools":
+    - group "Frame":
+      - button "Frame":
+      - button "Region tools":
+    - group "Rectangle":
+      - button "Rectangle":
+      - button "Shape tools":
+    - group "Pen":
+      - button "Pen":
+      - button "Creation tools":
+    - group "Text":
+      - button "Text":
+      - button "Type tools":
+    - group "Comment":
+      - button "Comment":
+      - button "Comment tools":
+    - button "Actions":
+    - radiogroup "Toolbelt Mode":
+      - generic: Toolbelt Mode
+      - radio "Draw"
+      - generic: Draw
+      - radio "Design" [checked]
+      - generic: Design
+      - radio "Motion"
+      - generic: Motion
+      - radio "Dev Mode"
+      - generic: Dev Mode
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- status
+- alert
+- alert

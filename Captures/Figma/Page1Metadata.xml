@@ -1,0 +1,627 @@
+<canvas id="0:1" name="Page 1" x="0" y="0" width="0" height="0">
+  <rounded-rectangle id="3:2" name="Asset 23-8" x="-1922" y="-815" width="1440" height="2960" />
+  <rounded-rectangle id="4:2" name="Asset 27-8" x="2141" y="-819" width="1440" height="2959" />
+  <rounded-rectangle id="4:3" name="Asset 80-8" x="2334" y="12" width="1088" height="974" />
+  <frame id="4:4" name="Group" x="2411" y="-207" width="918.9000244140625" height="130.20001220703125">
+    <frame id="4:5" name="Group" x="2411" y="-192" width="918.9000244140625" height="115.20000457763672">
+      <vector id="4:6" name="Vector" x="2411" y="-192" width="107.80000305175781" height="115.20000457763672" />
+      <vector id="4:7" name="Vector" x="2533.10009765625" y="-165.5" width="81.40000915527344" height="88.0999984741211" />
+      <vector id="4:8" name="Vector" x="2636.699951171875" y="-165.5" width="144.59999084472656" height="86.9000015258789" />
+      <vector id="4:9" name="Vector" x="2797.89990234375" y="-165.5" width="90.29998779296875" height="88.0999984741211" />
+      <vector id="4:10" name="Vector" x="2944.39990234375" y="-192" width="121.70001220703125" height="115.20000457763672" />
+      <vector id="4:11" name="Vector" x="3071.10009765625" y="-164.1999969482422" width="97.70001220703125" height="85.5" />
+      <vector id="4:12" name="Vector" x="3170.199951171875" y="-165.5" width="90.29998779296875" height="88.0999984741211" />
+      <vector id="4:13" name="Vector" x="3276.800048828125" y="-165.5" width="53.0999755859375" height="86.79999542236328" />
+    </frame>
+    <frame id="4:14" name="Group" x="2411" y="-207" width="918.9000244140625" height="115.20000457763672">
+      <vector id="4:15" name="Vector" x="2411" y="-206.89999389648438" width="107.70000457763672" height="115.0999984741211" />
+      <vector id="4:16" name="Vector" x="2533.10009765625" y="-180.5" width="81.40000915527344" height="88.0999984741211" />
+      <vector id="4:17" name="Vector" x="2636.699951171875" y="-180.5" width="144.59999084472656" height="86.9000015258789" />
+      <vector id="4:18" name="Vector" x="2797.89990234375" y="-180.5" width="90.29998779296875" height="88.0999984741211" />
+      <vector id="4:19" name="Vector" x="2944.39990234375" y="-207" width="121.70001220703125" height="115.19999694824219" />
+      <vector id="4:20" name="Vector" x="3071.10009765625" y="-179.1999969482422" width="97.70001220703125" height="85.5" />
+      <vector id="4:21" name="Vector" x="3170.199951171875" y="-180.5" width="90.29998779296875" height="88.0999984741211" />
+      <vector id="4:22" name="Vector" x="3276.800048828125" y="-180.5" width="53.0999755859375" height="86.79999542236328" />
+    </frame>
+  </frame>
+  <frame id="4:23" name="Group" x="2656.900390625" y="449" width="395.0999755859375" height="156.39996337890625">
+    <vector id="4:24" name="Vector" x="2656.900390625" y="449" width="124.89999389648438" height="156.39996337890625" />
+    <vector id="4:25" name="Vector" x="2785.80029296875" y="451.5" width="120.39999389648438" height="153.89996337890625" />
+    <vector id="4:26" name="Vector" x="2922.400390625" y="449" width="129.5999755859375" height="156.39996337890625" />
+  </frame>
+  <frame id="4:27" name="Group" x="2748.2001953125" y="326.1015625" width="225.9000244140625" height="46.4000244140625" />
+  <frame id="4:34" name="Group 74" x="2892" y="1099" width="490" height="180">
+    <rounded-rectangle id="4:35" name="Rectangle 3 copy 3 4" x="2892" y="1099" width="490" height="180" />
+    <vector id="4:36" name="Vector" x="3105" y="1134" width="86.77051544189453" height="97.46755981445312" />
+  </frame>
+  <frame id="4:37" name="Group 75" x="2310" y="1096" width="499" height="183">
+    <rounded-rectangle id="4:38" name="Rectangle 3 copy 7" x="2310" y="1096" width="499" height="183" />
+    <vector id="4:39" name="Vector" x="2503" y="1129" width="111.21896362304688" height="97.85133361816406" />
+  </frame>
+  <text id="4:69" name="COMBO+4" x="4193" y="-605" width="410" height="101" />
+  <text id="4:70" name="COMBO+2" x="4202" y="-762" width="367" height="91" />
+  <text id="4:71" name="Combo" x="4635" y="-661" width="396" height="128" />
+  <rounded-rectangle id="4:72" name="image 18" x="4254" y="-1026" width="314" height="198" />
+  <rounded-rectangle id="4:73" name="Combo 3" x="4615" y="-785" width="393" height="97" />
+  <rounded-rectangle id="4:74" name="7 13" x="5116" y="-819" width="145" height="157" />
+  <rounded-rectangle id="4:75" name="6 18" x="5158" y="-985" width="127" height="141" />
+  <rounded-rectangle id="4:76" name="1 18" x="4954" y="-1132" width="68" height="117" />
+  <rounded-rectangle id="4:77" name="2 687" x="5040" y="-1134" width="110" height="123" />
+  <rounded-rectangle id="4:78" name="3 21" x="5154" y="-1134" width="124" height="132" />
+  <rounded-rectangle id="4:79" name="4 35" x="4906" y="-977" width="116" height="117" />
+  <rounded-rectangle id="4:80" name="5 19" x="5030" y="-977" width="124" height="133" />
+  <rounded-rectangle id="4:81" name="+ 2" x="5007" y="-783" width="109" height="103" />
+  <frame id="4:83" name="Group 97" x="6082" y="-258" width="1345" height="1892">
+    <rounded-rectangle id="4:84" name="Asset 84-8" x="6082" y="-258" width="1345" height="1892" />
+    <vector id="4:85" name="Vector" x="6258" y="559.19921875" width="998" height="0" />
+    <vector id="4:86" name="Vector" x="6258" y="715.19921875" width="998" height="0" />
+    <vector id="4:87" name="Vector" x="6258" y="1072.19921875" width="998" height="0" />
+    <vector id="4:88" name="Vector" x="6258" y="1228.19921875" width="998" height="0" />
+    <vector id="4:89" name="Vector" x="6294" y="148.30078125" width="223.90037536621094" height="223.9000244140625" />
+    <vector id="4:90" name="Vector" x="6648" y="738.30078125" width="198" height="197.89996337890625" />
+    <vector id="4:91" name="Vector" x="7175.4375" y="464.8359375" width="26.412822723388672" height="45.36285400390625" />
+    <vector id="4:92" name="Vector" x="7175.4375" y="619.8359375" width="26.412822723388672" height="45.36285400390625" />
+    <vector id="4:93" name="Vector" x="7175.4375" y="962.8359375" width="26.412822723388672" height="45.362762451171875" />
+    <vector id="4:94" name="Vector" x="7175.4375" y="1119.8359375" width="26.412822723388672" height="45.362762451171875" />
+    <vector id="4:95" name="Vector" x="7175.4375" y="1295.8359375" width="26.412822723388672" height="45.362762451171875" />
+    <text id="4:96" name="More Settings" x="6407" y="-187" width="701" height="117" />
+    <text id="4:97" name="Contact Us" x="6298" y="457" width="311" height="66" />
+    <text id="4:98" name="Block Match Blast" x="6609" y="170" width="567" height="73" />
+    <text id="4:99" name="Version: 1.1.0" x="6615" y="252" width="386" height="73" />
+    <text id="4:100" name="Share With Friends" x="6298" y="613" width="544" height="66" />
+    <text id="4:101" name="Terms of Service" x="6298" y="955" width="467" height="66" />
+    <text id="4:102" name="Privacy Policy" x="6298" y="1109" width="393" height="66" />
+    <text id="4:103" name="About Us" x="6298" y="1267" width="262" height="66" />
+  </frame>
+  <frame id="4:104" name="SettingFrame" x="4471" y="-236" width="1229" height="1729">
+    <rounded-rectangle id="4:105" name="image 17" x="4368" y="-846" width="1434" height="2957" hidden="true" />
+    <rounded-rectangle id="4:106" name="Asset 85-8" x="4471" y="-236" width="1229" height="1729" />
+    <vector id="4:107" name="Vector" x="4598" y="232.19921875" width="968" height="0" />
+    <vector id="4:108" name="Vector" x="4598" y="431.19921875" width="968" height="0" />
+    <vector id="4:109" name="Vector" x="4598" y="630.19921875" width="968" height="0" />
+    <vector id="4:110" name="Vector" x="4598" y="829.19921875" width="968" height="0" />
+    <vector id="4:111" name="Vector" x="4598" y="1028.19921875" width="968" height="0" />
+    <frame id="4:112" name="Group 94" x="5225" y="682" width="296" height="109">
+      <rounded-rectangle id="4:113" name="Rectangle 3 1" x="5225" y="682" width="296" height="109" />
+      <text id="4:114" name="Play" x="5303" y="691" width="144" height="78" />
+    </frame>
+    <frame id="4:115" name="Group 95" x="5225" y="875" width="296" height="109">
+      <rounded-rectangle id="4:116" name="Rectangle 3 4" x="5225" y="875" width="296" height="109" />
+      <text id="4:117" name="Back" x="5291" y="886" width="169" height="78" />
+    </frame>
+    <text id="4:118" name="Back to home" x="4801" y="896" width="395" height="66" />
+    <text id="4:119" name="More Settings" x="4801" y="1081" width="395" height="66" />
+    <text id="4:120" name="Replay" x="4800" y="697" width="193" height="66" />
+    <text id="4:121" name="Settings" x="4873" y="-187" width="418" height="117" />
+    <text id="4:122" name="BGM" x="4805" y="302" width="135" height="66" />
+    <text id="4:123" name="Sound" x="4805" y="112" width="182" height="66" />
+    <text id="4:124" name="Vibration" x="4797" y="504" width="261" height="66" />
+    <frame id="4:125" name="Group 96" x="5225" y="1064" width="296" height="109">
+      <rounded-rectangle id="4:126" name="Rectangle 3 5" x="5225" y="1064" width="296" height="109" />
+      <text id="4:127" name="Set" x="5321" y="1075" width="109" height="78" />
+    </frame>
+    <rounded-rectangle id="4:128" name="Exit 3" x="4765" y="969" width="92.00001462321598" height="80.00000041350154" />
+    <rounded-rectangle id="4:129" name="Setting 1" x="4679" y="1071" width="94" height="95" />
+    <rounded-rectangle id="4:130" name="replay icon 2" x="4683" y="676" width="90" height="93" />
+    <rounded-rectangle id="4:131" name="vibration 1" x="4679" y="486" width="94" height="94" />
+    <rounded-rectangle id="4:132" name="Sound 2" x="4669" y="93" width="110" height="103" />
+    <rounded-rectangle id="4:133" name="Music 2" x="4687" y="285" width="71" height="102" />
+    <rounded-rectangle id="4:134" name="Toggle2 1" x="5303" y="287" width="213" height="95" />
+    <rounded-rectangle id="4:135" name="Toggle 3" x="5303" y="94" width="213" height="95" />
+    <rounded-rectangle id="4:136" name="Toggle 4" x="5303" y="483" width="213" height="95" />
+  </frame>
+  <frame id="4:137" name="SettingFrame" x="7620" y="-312" width="1229" height="1729">
+    <rounded-rectangle id="4:138" name="image 17" x="7517" y="-922" width="1434" height="2957" hidden="true" />
+    <rounded-rectangle id="4:139" name="Asset 85-8" x="7620" y="-312" width="1229" height="1729" />
+    <vector id="4:140" name="Vector" x="7747" y="156.19921875" width="968" height="0" />
+    <vector id="4:141" name="Vector" x="7747" y="355.19921875" width="968" height="0" />
+    <vector id="4:142" name="Vector" x="7747" y="554.19921875" width="968" height="0" />
+    <vector id="4:143" name="Vector" x="7747" y="753.19921875" width="968" height="0" />
+    <text id="4:144" name="More Settings" x="7949" y="621" width="395" height="66" />
+    <text id="4:145" name="Settings" x="8022" y="-263" width="418" height="117" />
+    <text id="4:146" name="BGM" x="7954" y="226" width="135" height="66" />
+    <text id="4:147" name="Sound" x="7954" y="36" width="182" height="66" />
+    <text id="4:148" name="Vibration" x="7946" y="428" width="261" height="66" />
+    <rounded-rectangle id="4:149" name="Setting 1" x="7828" y="606" width="94" height="95" />
+    <rounded-rectangle id="4:150" name="vibration 1" x="7828" y="410" width="94" height="94" />
+    <rounded-rectangle id="4:151" name="Sound 2" x="7818" y="17" width="110" height="103" />
+    <rounded-rectangle id="4:152" name="Music 2" x="7836" y="209" width="71" height="102" />
+  </frame>
+  <vector id="4:153" name="Vector" x="5552" y="-165" width="65.85104370117188" height="61.45000076293945" />
+  <rounded-rectangle id="4:157" name="ChatGPT Image 09_24_48 29 thg 4, 2026 1" x="5689" y="-1095" width="1009" height="673" />
+  <rounded-rectangle id="4:179" name="Asset 23-8" x="4057" y="3026" width="1440" height="2960" />
+  <rounded-rectangle id="4:180" name="Asset 23-8" x="2018" y="3057" width="1440" height="2960" />
+  <rounded-rectangle id="4:181" name="Asset 23-8" x="5770" y="3022" width="1440" height="2960" />
+  <rounded-rectangle id="4:182" name="Asset 23-8" x="7532" y="3022" width="1440" height="2960" />
+  <rounded-rectangle id="4:183" name="Rectangle 351" x="5770" y="3022" width="1440" height="2964" />
+  <rounded-rectangle id="4:184" name="Rectangle 352" x="7532" y="3022" width="1440" height="2964" />
+  <rounded-rectangle id="4:185" name="Asset 19-8" x="2152" y="3140" width="116" height="93" />
+  <frame id="4:186" name="Group" x="2102" y="3249" width="210.29986572265625" height="64.10009765625" />
+  <rounded-rectangle id="4:191" name="Asset 27-8" x="5770" y="3022" width="1440" height="2959" />
+  <rounded-rectangle id="4:192" name="Asset 27-8" x="7532" y="3022" width="1440" height="2959" />
+  <frame id="4:193" name="Group" x="8065" y="4012" width="429" height="429">
+    <vector id="4:194" name="Vector" x="8065" y="4012" width="429" height="429" />
+    <vector id="4:195" name="Vector" x="8081.0546875" y="4028.05859375" width="396.8907775878906" height="396.8907775878906" />
+    <vector id="4:196" name="Vector" x="8086" y="4033" width="387" height="387" />
+  </frame>
+  <frame id="4:197" name="Group" x="2388" y="3336" width="755.7000122070312" height="163">
+    <frame id="4:198" name="Group" x="2388" y="3374" width="670.5999755859375" height="93.7999038696289">
+      <frame id="4:199" name="Group" x="2388" y="3374" width="670.5999755859375" height="93.7999038696289">
+        <vector id="4:200" name="Vector" x="2388" y="3374" width="670.5999755859375" height="86.5" />
+        <vector id="4:201" name="Vector" x="2388" y="3381.39990234375" width="670.5999755859375" height="86.4000015258789" />
+        <vector id="4:202" name="Vector" x="2392.800048828125" y="3380" width="661" height="74.5999984741211" />
+        <vector id="4:203" name="Vector" x="2401" y="3390.300048828125" width="644.4036254882812" height="53.79999923706055" />
+      </frame>
+    </frame>
+    <frame id="4:204" name="Group" x="2980.699951171875" y="3336" width="163" height="163" />
+  </frame>
+  <frame id="4:208" name="Group" x="2401" y="3390.30078125" width="187.30093383789062" height="53.79999923706055" />
+  <frame id="4:211" name="Group" x="3012.2001953125" y="3398.19921875" width="90.5001220703125" height="36.20009994506836" />
+  <frame id="4:215" name="Group" x="2694.099609375" y="3398.3984375" width="78.79998779296875" height="36" />
+  <frame id="4:219" name="Group" x="4112" y="3553" width="1344" height="1344">
+    <vector id="4:220" name="Vector" x="4115" y="3556" width="1338.0999755859375" height="1338" />
+    <frame id="4:221" name="Group" x="4114" y="3556" width="1338" height="1338">
+      <vector id="4:222" name="Vector" x="4114.09912109375" y="3556" width="1337.90087890625" height="1337.9000244140625" />
+      <vector id="4:223" name="Vector" x="4114" y="4726.7998046875" width="1338" height="0" />
+      <vector id="4:224" name="Vector" x="4114" y="4559.5" width="1338" height="0" />
+      <vector id="4:225" name="Vector" x="4114" y="4392.2998046875" width="1338" height="0" />
+      <vector id="4:226" name="Vector" x="4114" y="4225" width="1338" height="0" />
+      <vector id="4:227" name="Vector" x="4114" y="4057.800048828125" width="1338" height="0" />
+      <vector id="4:228" name="Vector" x="4114" y="3890.5" width="1338" height="0" />
+      <vector id="4:229" name="Vector" x="4114" y="3723.300048828125" width="1338" height="0" />
+      <vector id="4:230" name="Vector" x="5284.7998046875" y="3556" width="0" height="1338" />
+      <vector id="4:231" name="Vector" x="5117.5" y="3556" width="0" height="1338" />
+      <vector id="4:232" name="Vector" x="4950.2998046875" y="3556" width="0" height="1338" />
+      <vector id="4:233" name="Vector" x="4783" y="3556" width="0" height="1338" />
+      <vector id="4:234" name="Vector" x="4615.7998046875" y="3556" width="0" height="1338" />
+      <vector id="4:235" name="Vector" x="4448.5" y="3556" width="0" height="1338" />
+      <vector id="4:236" name="Vector" x="4281.2998046875" y="3556" width="0" height="1338" />
+    </frame>
+    <vector id="4:237" name="Vector" x="4115" y="3556" width="1337.901123046875" height="1338" />
+    <vector id="4:238" name="Vector" x="4112" y="3553" width="1344" height="1344" />
+  </frame>
+  <frame id="4:239" name="Group" x="2073" y="3584" width="1344" height="1344">
+    <vector id="4:240" name="Vector" x="2076" y="3587" width="1338.0999755859375" height="1338" />
+    <frame id="4:241" name="Group" x="2075" y="3587" width="1338" height="1338">
+      <vector id="4:242" name="Vector" x="2075.09912109375" y="3587" width="1337.90087890625" height="1337.9000244140625" />
+      <vector id="4:243" name="Vector" x="2075" y="4757.7998046875" width="1338" height="0" />
+      <vector id="4:244" name="Vector" x="2075" y="4590.5" width="1338" height="0" />
+      <vector id="4:245" name="Vector" x="2075" y="4423.2998046875" width="1338" height="0" />
+      <vector id="4:246" name="Vector" x="2075" y="4256" width="1338" height="0" />
+      <vector id="4:247" name="Vector" x="2075" y="4088.800048828125" width="1338" height="0" />
+      <vector id="4:248" name="Vector" x="2075" y="3921.5" width="1338" height="0" />
+      <vector id="4:249" name="Vector" x="2075" y="3754.300048828125" width="1338" height="0" />
+      <vector id="4:250" name="Vector" x="3245.800048828125" y="3587" width="0" height="1338" />
+      <vector id="4:251" name="Vector" x="3078.5" y="3587" width="0" height="1338" />
+      <vector id="4:252" name="Vector" x="2911.300048828125" y="3587" width="0" height="1338" />
+      <vector id="4:253" name="Vector" x="2744" y="3587" width="0" height="1338" />
+      <vector id="4:254" name="Vector" x="2576.800048828125" y="3587" width="0" height="1338" />
+      <vector id="4:255" name="Vector" x="2409.5" y="3587" width="0" height="1338" />
+      <vector id="4:256" name="Vector" x="2242.300048828125" y="3587" width="0" height="1338" />
+    </frame>
+    <vector id="4:257" name="Vector" x="2076" y="3587" width="1337.901123046875" height="1338" />
+    <vector id="4:258" name="Vector" x="2073" y="3584" width="1344" height="1344" />
+  </frame>
+  <rounded-rectangle id="4:259" name="Asset 79-8" x="4932" y="4801" width="180" height="185" />
+  <rounded-rectangle id="4:260" name="Asset 79-8" x="2893" y="4832" width="180" height="185" />
+  <text id="4:261" name="VICTORY" x="6151" y="3576" width="759" height="200" />
+  <text id="4:262" name="VICTORY" x="7913" y="3576" width="759" height="200" />
+  <text id="4:263" name="200" x="8155" y="4143" width="250" height="156" />
+  <frame id="4:264" name="Group" x="4627" y="3170" width="330.70001220703125" height="64.2000961303711">
+    <vector id="4:265" name="Vector" x="4627" y="3170" width="13.300000190734863" height="63.099998474121094" />
+    <vector id="4:266" name="Vector" x="4649.2998046875" y="3186.699951171875" width="48.20000076293945" height="47.099998474121094" />
+    <vector id="4:267" name="Vector" x="4698.7001953125" y="3187.39990234375" width="52.30000305175781" height="45.80000305175781" />
+    <vector id="4:268" name="Vector" x="4751.7998046875" y="3186.699951171875" width="48.19999694824219" height="47.099998474121094" />
+    <vector id="4:269" name="Vector" x="4808.7998046875" y="3170" width="13.300003051757812" height="63.099998474121094" />
+    <vector id="4:270" name="Vector" x="4855.7001953125" y="3172.60009765625" width="51.00001525878906" height="61.599998474121094" />
+    <vector id="4:271" name="Vector" x="4910" y="3172.39990234375" width="47.70001220703125" height="60.69999694824219" />
+  </frame>
+  <frame id="4:272" name="Group" x="2588" y="3201" width="330.70001220703125" height="64.2000961303711">
+    <vector id="4:273" name="Vector" x="2588" y="3201" width="13.300000190734863" height="63.099998474121094" />
+    <vector id="4:274" name="Vector" x="2610.300048828125" y="3217.699951171875" width="48.20000076293945" height="47.099998474121094" />
+    <vector id="4:275" name="Vector" x="2659.699951171875" y="3218.39990234375" width="52.30000305175781" height="45.80000305175781" />
+    <vector id="4:276" name="Vector" x="2712.800048828125" y="3217.699951171875" width="48.19999694824219" height="47.099998474121094" />
+    <vector id="4:277" name="Vector" x="2769.800048828125" y="3201" width="13.300003051757812" height="63.099998474121094" />
+    <vector id="4:278" name="Vector" x="2816.699951171875" y="3203.60009765625" width="51.00001525878906" height="61.599998474121094" />
+    <vector id="4:279" name="Vector" x="2871" y="3203.39990234375" width="47.70001220703125" height="60.69999694824219" />
+  </frame>
+  <frame id="4:280" name="Group" x="382" y="3050" width="1451.5" height="2959">
+    <frame id="4:281" name="Group" x="382" y="3050" width="1451.5" height="2959">
+      <vector id="4:282" name="Vector" x="392.29998779296875" y="3050" width="1441" height="2959" />
+      <vector id="4:283" name="background_1_" x="392.29998779296875" y="3050" width="1441" height="2959" />
+      <vector id="4:284" name="Vector" x="382" y="3892.60009765625" width="1451.5" height="1770.5999755859375" />
+    </frame>
+  </frame>
+  <frame id="4:285" name="Group 492" x="4216" y="5283" width="225" height="75">
+    <rounded-rectangle id="4:286" name="5 3" x="4216" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:287" name="5 4" x="4291" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:288" name="5 5" x="4366" y="5283" width="75" height="75" />
+  </frame>
+  <frame id="4:289" name="Group 102" x="2177" y="5314" width="225" height="75">
+    <rounded-rectangle id="4:290" name="5 3" x="2177" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:291" name="5 4" x="2252" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:292" name="5 5" x="2327" y="5314" width="75" height="75" />
+  </frame>
+  <frame id="4:293" name="Group 493" x="4688" y="5208" width="225" height="150">
+    <rounded-rectangle id="4:294" name="3 3" x="4688" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:295" name="3 4" x="4763" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:296" name="3 5" x="4838" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:297" name="3 6" x="4838" y="5208" width="75" height="75" />
+  </frame>
+  <frame id="4:298" name="Group 103" x="2649" y="5239" width="225" height="150">
+    <rounded-rectangle id="4:299" name="3 3" x="2649" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:300" name="3 4" x="2724" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:301" name="3 5" x="2799" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:302" name="3 6" x="2799" y="5239" width="75" height="75" />
+  </frame>
+  <frame id="4:303" name="Group 494" x="5209" y="5283" width="149" height="75">
+    <rounded-rectangle id="4:304" name="2 659" x="5209" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:305" name="2 660" x="5283" y="5283" width="75" height="75" />
+  </frame>
+  <frame id="4:306" name="Group 104" x="3170" y="5314" width="149" height="75">
+    <rounded-rectangle id="4:307" name="2 659" x="3170" y="5314" width="75" height="75" />
+    <rounded-rectangle id="4:308" name="2 660" x="3244" y="5314" width="75" height="75" />
+  </frame>
+  <rounded-rectangle id="4:309" name="2 693" x="4618" y="4392" width="166" height="166" />
+  <rounded-rectangle id="4:310" name="2 690" x="2579" y="4423" width="166" height="166" />
+  <rounded-rectangle id="4:311" name="2 694" x="4784" y="4392" width="166" height="166" />
+  <rounded-rectangle id="4:312" name="2 691" x="2745" y="4423" width="166" height="166" />
+  <rounded-rectangle id="4:313" name="2 695" x="4950" y="4392" width="166" height="166" />
+  <rounded-rectangle id="4:314" name="2 692" x="2911" y="4423" width="166" height="166" />
+  <rounded-rectangle id="4:315" name="Rounded Rectangle 2 21" x="4148" y="5008" width="242" height="126" />
+  <rounded-rectangle id="4:316" name="Rounded Rectangle 2 18" x="2109" y="5039" width="242" height="126" />
+  <rounded-rectangle id="4:317" name="Rounded Rectangle 2 22" x="4711" y="5008" width="242" height="126" />
+  <rounded-rectangle id="4:318" name="Rounded Rectangle 2 19" x="2672" y="5039" width="242" height="126" />
+  <rounded-rectangle id="4:319" name="Rounded Rectangle 2 23" x="5234" y="5008" width="242" height="126" />
+  <rounded-rectangle id="4:320" name="Rounded Rectangle 2 20" x="3195" y="5039" width="242" height="126" />
+  <text id="4:321" name="1" x="4301" y="5031" width="26" height="78" />
+  <text id="4:322" name="1" x="2262" y="5062" width="26" height="78" />
+  <text id="4:323" name="2" x="4865" y="5031" width="38" height="78" />
+  <text id="4:324" name="2" x="2826" y="5062" width="38" height="78" />
+  <text id="4:325" name="2" x="5387" y="5031" width="38" height="78" />
+  <text id="4:326" name="2" x="3348" y="5062" width="38" height="78" />
+  <rounded-rectangle id="4:327" name="Layer 2 7" x="4722.5" y="5014" width="110" height="109" />
+  <rounded-rectangle id="4:328" name="Layer 2 5" x="2683.5" y="5045" width="110" height="109" />
+  <rounded-rectangle id="4:329" name="Layer 4 7" x="5244.5" y="5000" width="119" height="129" />
+  <rounded-rectangle id="4:330" name="Layer 4 5" x="3205.5" y="5031" width="119" height="129" />
+  <rounded-rectangle id="4:331" name="Layer 3 7" x="4167" y="5008" width="86" height="103" />
+  <rounded-rectangle id="4:332" name="Layer 3 5" x="2128" y="5039" width="86" height="103" />
+  <rounded-rectangle id="4:333" name="5 22" x="6282" y="4149" width="192" height="167" />
+  <rounded-rectangle id="4:334" name="5 23" x="4851" y="5225" width="48" height="41" />
+  <rounded-rectangle id="4:335" name="3 24" x="6587" y="4141" width="163" height="183" />
+  <frame id="4:336" name="Group 507" x="5283" y="4058" width="169" height="169">
+    <rounded-rectangle id="4:337" name="11 10 6" x="5283" y="4058" width="169" height="169" />
+    <rounded-rectangle id="4:338" name="3 15" x="5325.771484375" y="4095.5556640625" width="83.456787109375" height="93.88888549804688" />
+  </frame>
+  <frame id="4:339" name="Group 508" x="5116" y="4058" width="169" height="169">
+    <rounded-rectangle id="4:340" name="11 10 6" x="5116" y="4058" width="169" height="169" />
+    <rounded-rectangle id="4:341" name="3 15" x="5158.771484375" y="4095.5556640625" width="83.456787109375" height="93.88888549804688" />
+  </frame>
+  <frame id="4:342" name="Group 509" x="4949" y="4058" width="169" height="169">
+    <rounded-rectangle id="4:343" name="11 10 6" x="4949" y="4058" width="169" height="169" />
+    <rounded-rectangle id="4:344" name="3 15" x="4991.771484375" y="4095.5556640625" width="83.456787109375" height="93.88888549804688" />
+  </frame>
+  <frame id="4:345" name="Group 510" x="4782" y="4058" width="169" height="169">
+    <rounded-rectangle id="4:346" name="11 10 6" x="4782" y="4058" width="169" height="169" />
+    <rounded-rectangle id="4:347" name="3 15" x="4824.771484375" y="4095.5556640625" width="83.456787109375" height="93.88888549804688" />
+  </frame>
+  <frame id="4:348" name="Group 506" x="4291" y="5283" width="75" height="75">
+    <rounded-rectangle id="4:349" name="11 10 6" x="4291" y="5283" width="75" height="75" />
+    <rounded-rectangle id="4:350" name="3 15" x="4309.98193359375" y="5299.66845703125" width="37.03703689575195" height="41.666664123535156" />
+  </frame>
+  <frame id="4:351" name="Group 504" x="4838" y="5209" width="74" height="74">
+    <rounded-rectangle id="4:352" name="11 10 7" x="4838" y="5209" width="74" height="74" />
+    <rounded-rectangle id="4:353" name="5 12" x="4854.9013671875" y="5229.09765625" width="39.74074172973633" height="34.25925827026367" />
+  </frame>
+  <frame id="4:354" name="Group 505" x="5284" y="5283" width="74" height="74">
+    <rounded-rectangle id="4:355" name="11 10 4" x="5284" y="5283" width="74" height="74" />
+    <rounded-rectangle id="4:356" name="4 23" x="5301.81494140625" y="5301.72802734375" width="37.913578033447266" height="37" />
+  </frame>
+  <frame id="4:357" name="Group 513" x="806" y="5443.734375" width="706.0000610351562" height="258.5352478027344">
+    <frame id="4:358" name="Group 522" x="806" y="5443.734375" width="706.0000610351562" height="258.5352478027344">
+      <rounded-rectangle id="4:359" name="Rectangle 3 7" x="806" y="5443.734375" width="706.0000610351562" height="258.5352478027344" />
+      <text id="4:360" name="Classic" x="1012" y="5509" width="294" height="128" />
+    </frame>
+  </frame>
+  <rounded-rectangle id="4:361" name="Setting 5" x="5320" y="3139" width="94" height="95" />
+  <rounded-rectangle id="4:362" name="Setting 4" x="3281" y="3170" width="94" height="95" />
+  <rounded-rectangle id="4:363" name="Setting 6" x="1659" y="3193" width="94" height="95" />
+  <frame id="4:364" name="Group 511" x="8008" y="5457" width="568" height="208">
+    <rounded-rectangle id="4:365" name="Rectangle 3 7" x="8008" y="5457" width="568" height="208" />
+    <vector id="4:366" name="Vector" x="8067" y="5514" width="73" height="81" />
+  </frame>
+  <frame id="4:367" name="Group" x="459" y="3233" width="123.69999694824219" height="136.36407470703125" />
+  <text id="4:435" name="Collection" x="6302" y="3970" width="422" height="98" />
+  <text id="4:436" name="SCORE" x="8138" y="3886" width="287" height="98" />
+  <text id="4:437" name="Reach Level 4" x="6338" y="4483" width="348" height="59" />
+  <text id="4:438" name="Reach Level 4" x="8100" y="4483" width="348" height="59" />
+  <text id="4:439" name="Reach Level 8" x="6338" y="4782" width="347" height="59" />
+  <text id="4:440" name="Reach Level 8" x="8100" y="4782" width="347" height="59" />
+  <text id="4:441" name="Reach Level 15" x="6338" y="5075" width="362" height="59" />
+  <text id="4:442" name="Reach Level 15" x="8100" y="5075" width="362" height="59" />
+  <frame id="4:443" name="Group" x="6318" y="4334" width="115" height="87.95833587646484" />
+  <frame id="4:455" name="Group" x="6613" y="4334" width="115" height="87.95833587646484" />
+  <rounded-rectangle id="4:467" name="wheel 9" x="438" y="3573" width="157" height="157" />
+  <frame id="4:468" name="Group" x="6128" y="4554" width="778" height="93.7984390258789">
+    <frame id="4:469" name="Group" x="6128" y="4554" width="778" height="93.7984390258789">
+      <frame id="4:470" name="Group" x="6128" y="4554" width="778" height="93.7984390258789">
+        <vector id="4:471" name="Vector" x="6128" y="4554" width="778" height="86.5" />
+        <vector id="4:472" name="Vector" x="6128" y="4561.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:473" name="Vector" x="6133.568359375" y="4560" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:474" name="Vector" x="6143.08203125" y="4570.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:475" name="Group" x="7890" y="4554" width="778" height="93.7984390258789">
+    <frame id="4:476" name="Group" x="7890" y="4554" width="778" height="93.7984390258789">
+      <frame id="4:477" name="Group" x="7890" y="4554" width="778" height="93.7984390258789">
+        <vector id="4:478" name="Vector" x="7890" y="4554" width="778" height="86.5" />
+        <vector id="4:479" name="Vector" x="7890" y="4561.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:480" name="Vector" x="7895.568359375" y="4560" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:481" name="Vector" x="7905.08203125" y="4570.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:482" name="Group" x="6128" y="4847" width="778" height="93.7984390258789">
+    <frame id="4:483" name="Group" x="6128" y="4847" width="778" height="93.7984390258789">
+      <frame id="4:484" name="Group" x="6128" y="4847" width="778" height="93.7984390258789">
+        <vector id="4:485" name="Vector" x="6128" y="4847" width="778" height="86.5" />
+        <vector id="4:486" name="Vector" x="6128" y="4854.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:487" name="Vector" x="6133.568359375" y="4853" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:488" name="Vector" x="6143.08203125" y="4863.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:489" name="Group" x="7890" y="4847" width="778" height="93.7984390258789">
+    <frame id="4:490" name="Group" x="7890" y="4847" width="778" height="93.7984390258789">
+      <frame id="4:491" name="Group" x="7890" y="4847" width="778" height="93.7984390258789">
+        <vector id="4:492" name="Vector" x="7890" y="4847" width="778" height="86.5" />
+        <vector id="4:493" name="Vector" x="7890" y="4854.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:494" name="Vector" x="7895.568359375" y="4853" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:495" name="Vector" x="7905.08203125" y="4863.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:496" name="Group" x="6128" y="5140" width="778" height="93.7984390258789">
+    <frame id="4:497" name="Group" x="6128" y="5140" width="778" height="93.7984390258789">
+      <frame id="4:498" name="Group" x="6128" y="5140" width="778" height="93.7984390258789">
+        <vector id="4:499" name="Vector" x="6128" y="5140" width="778" height="86.5" />
+        <vector id="4:500" name="Vector" x="6128" y="5147.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:501" name="Vector" x="6133.568359375" y="5146" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:502" name="Vector" x="6143.08203125" y="5156.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+    <text id="4:503" name="2/15" x="6451" y="5157" width="97" height="59" />
+  </frame>
+  <frame id="4:504" name="Group" x="7890" y="5140" width="778" height="93.7984390258789">
+    <frame id="4:505" name="Group" x="7890" y="5140" width="778" height="93.7984390258789">
+      <frame id="4:506" name="Group" x="7890" y="5140" width="778" height="93.7984390258789">
+        <vector id="4:507" name="Vector" x="7890" y="5140" width="778" height="86.5" />
+        <vector id="4:508" name="Vector" x="7890" y="5147.3984375" width="778" height="86.4000015258789" />
+        <vector id="4:509" name="Vector" x="7895.568359375" y="5146" width="766.862548828125" height="74.5999984741211" />
+        <vector id="4:510" name="Vector" x="7905.08203125" y="5156.30078125" width="747.608154296875" height="53.79999923706055" />
+      </frame>
+    </frame>
+    <text id="4:511" name="2/15" x="8213" y="5157" width="97" height="59" />
+  </frame>
+  <frame id="4:512" name="Group" x="6141" y="4570.30078125" width="359.40093994140625" height="53.79999923706055">
+    <vector id="4:513" name="Vector" x="6141" y="4570.30078125" width="359.40093994140625" height="53.79999923706055" />
+    <vector id="4:514" name="Vector" x="6145.10009765625" y="4575.40087890625" width="347.89990234375" height="22.900001525878906" />
+  </frame>
+  <frame id="4:515" name="Group" x="7903" y="4570.30078125" width="359.40093994140625" height="53.79999923706055">
+    <vector id="4:516" name="Vector" x="7903" y="4570.30078125" width="359.40093994140625" height="53.79999923706055" />
+    <vector id="4:517" name="Vector" x="7907.10009765625" y="4575.40087890625" width="347.89990234375" height="22.900001525878906" />
+  </frame>
+  <frame id="4:518" name="Group" x="6141" y="4863.30078125" width="187.30093383789062" height="53.79999923706055" />
+  <frame id="4:521" name="Group" x="7903" y="4863.30078125" width="187.30093383789062" height="53.79999923706055" />
+  <frame id="4:524" name="Group" x="6141" y="5156.30078125" width="161" height="53.79999923706055" />
+  <frame id="4:527" name="Group" x="7903" y="5156.30078125" width="161" height="53.79999923706055" />
+  <text id="4:530" name="2/8" x="6451" y="4863" width="78" height="59" />
+  <text id="4:531" name="2/8" x="8213" y="4863" width="78" height="59" />
+  <text id="4:532" name="2/4" x="6451" y="4568" width="78" height="59" />
+  <text id="4:533" name="2/4" x="8213" y="4568" width="78" height="59" />
+  <rounded-rectangle id="4:534" name="chest 3" x="6796" y="4508" width="170" height="169" />
+  <rounded-rectangle id="4:535" name="chest 5" x="8558" y="4508" width="170" height="169" />
+  <instance id="4:536" name="slider_collection_background" x="4140" y="3328" width="1285" height="203" />
+  <instance id="4:537" name="card_frame_common" x="6805" y="4786" width="150" height="223" />
+  <instance id="4:538" name="card_frame_common" x="8567" y="4786" width="150" height="223" />
+  <instance id="4:539" name="card_frame_common" x="6806" y="5075" width="150" height="223" />
+  <instance id="4:540" name="card_frame_common" x="8568" y="5075" width="150" height="223" />
+  <frame id="4:541" name="Mask group" x="6812" y="4793" width="134" height="201">
+    <rounded-rectangle id="4:542" name="Rectangle 350" x="6812" y="4793" width="134" height="201" />
+    <frame id="4:543" name="Group 498" x="6744.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656">
+      <frame id="4:544" name="Group" x="6744.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656">
+        <vector id="4:545" name="Vector" x="6744.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656" />
+        <frame id="4:546" name="Group" x="6750.16259765625" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+          <frame id="4:547" name="Clip path group" x="6750.16259765625" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+            <frame id="4:548" name="SVGID_2_" x="6750.16259765625" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+              <vector id="4:549" name="Vector" x="6750.16259765625" y="4820.423828125" width="291.48016357421875" height="164.91949462890625" />
+            </frame>
+            <frame id="4:550" name="Group" x="6746.09228515625" y="4756.2041015625" width="297.688720703125" height="293.3298034667969">
+              <vector id="4:551" name="Vector" x="6746.75" y="4756.8916015625" width="296.33184814453125" height="291.9925842285156" />
+              <frame id="4:552" name="Group" x="6746.54443359375" y="4756.8896484375" width="296.33184814453125" height="292.0331115722656">
+                <vector id="4:553" name="Vector" x="6746.54443359375" y="4756.8896484375" width="296.33184814453125" height="292.0331115722656" />
+                <vector id="4:554" name="Vector" x="6746.54443359375" y="5012.373046875" width="296.2907409667969" height="0" />
+                <vector id="4:555" name="Vector" x="6746.54443359375" y="4975.904296875" width="296.2907409667969" height="0" />
+                <vector id="4:556" name="Vector" x="6746.54443359375" y="4939.39306640625" width="296.2907409667969" height="0" />
+                <vector id="4:557" name="Vector" x="6746.54443359375" y="4902.88525390625" width="296.2907409667969" height="0" />
+                <vector id="4:558" name="Vector" x="6746.54443359375" y="4866.3779296875" width="296.2907409667969" height="0" />
+                <vector id="4:559" name="Vector" x="6746.54443359375" y="4829.86669921875" width="296.2907409667969" height="0" />
+                <vector id="4:560" name="Vector" x="6746.54443359375" y="4793.35888671875" width="296.2907409667969" height="0" />
+                <vector id="4:561" name="Vector" x="7005.82958984375" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:562" name="Vector" x="6968.78271484375" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:563" name="Vector" x="6931.736328125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:564" name="Vector" x="6894.689453125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:565" name="Vector" x="6857.64306640625" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:566" name="Vector" x="6820.6376953125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:567" name="Vector" x="6783.5908203125" y="4756.8896484375" width="0" height="291.9925842285156" />
+              </frame>
+              <vector id="4:568" name="Vector" x="6746.79052734375" y="4756.8916015625" width="296.2915344238281" height="291.9925842285156" />
+              <vector id="4:569" name="Vector" x="6746.09228515625" y="4756.2041015625" width="297.688720703125" height="293.3298034667969" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="4:570" name="4 15" x="6856.84521484375" y="4942.00732421875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:571" name="4 16" x="6897.21435546875" y="4942.00732421875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:572" name="4 10" x="6816.47705078125" y="4942.44580078125" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:573" name="4 14" x="6856.84521484375" y="4902.07763671875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:574" name="2 665" x="6856.40673828125" y="4863.02197265625" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:575" name="2 666" x="6856.40673828125" y="4823.53466796875" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:576" name="2 668" x="6895.8974609375" y="4823.53466796875" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:577" name="2 669" x="6895.8974609375" y="4862.5869140625" width="39.27155685424805" height="39.27155685424805" />
+    </frame>
+  </frame>
+  <frame id="4:578" name="Mask group" x="8574" y="4793" width="134" height="201">
+    <rounded-rectangle id="4:579" name="Rectangle 350" x="8574" y="4793" width="134" height="201" />
+    <frame id="4:580" name="Group 498" x="8506.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656">
+      <frame id="4:581" name="Group" x="8506.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656">
+        <vector id="4:582" name="Vector" x="8506.8173828125" y="4815.40625" width="302.2527160644531" height="174.96864318847656" />
+        <frame id="4:583" name="Group" x="8512.162109375" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+          <frame id="4:584" name="Clip path group" x="8512.162109375" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+            <frame id="4:585" name="SVGID_2_" x="8512.162109375" y="4820.423828125" width="291.48016357421875" height="164.91949462890625">
+              <vector id="4:586" name="Vector" x="8512.162109375" y="4820.423828125" width="291.48016357421875" height="164.91949462890625" />
+            </frame>
+            <frame id="4:587" name="Group" x="8508.091796875" y="4756.2041015625" width="297.688720703125" height="293.3298034667969">
+              <vector id="4:588" name="Vector" x="8508.7490234375" y="4756.8916015625" width="296.33184814453125" height="291.9925842285156" />
+              <frame id="4:589" name="Group" x="8508.5439453125" y="4756.8896484375" width="296.33184814453125" height="292.0331115722656">
+                <vector id="4:590" name="Vector" x="8508.5439453125" y="4756.8896484375" width="296.33184814453125" height="292.0331115722656" />
+                <vector id="4:591" name="Vector" x="8508.5439453125" y="5012.373046875" width="296.2907409667969" height="0" />
+                <vector id="4:592" name="Vector" x="8508.5439453125" y="4975.904296875" width="296.2907409667969" height="0" />
+                <vector id="4:593" name="Vector" x="8508.5439453125" y="4939.39306640625" width="296.2907409667969" height="0" />
+                <vector id="4:594" name="Vector" x="8508.5439453125" y="4902.88525390625" width="296.2907409667969" height="0" />
+                <vector id="4:595" name="Vector" x="8508.5439453125" y="4866.3779296875" width="296.2907409667969" height="0" />
+                <vector id="4:596" name="Vector" x="8508.5439453125" y="4829.86669921875" width="296.2907409667969" height="0" />
+                <vector id="4:597" name="Vector" x="8508.5439453125" y="4793.35888671875" width="296.2907409667969" height="0" />
+                <vector id="4:598" name="Vector" x="8767.8291015625" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:599" name="Vector" x="8730.7822265625" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:600" name="Vector" x="8693.736328125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:601" name="Vector" x="8656.689453125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:602" name="Vector" x="8619.642578125" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:603" name="Vector" x="8582.63671875" y="4756.8896484375" width="0" height="291.9925842285156" />
+                <vector id="4:604" name="Vector" x="8545.5908203125" y="4756.8896484375" width="0" height="291.9925842285156" />
+              </frame>
+              <vector id="4:605" name="Vector" x="8508.7900390625" y="4756.8916015625" width="296.2915344238281" height="291.9925842285156" />
+              <vector id="4:606" name="Vector" x="8508.091796875" y="4756.2041015625" width="297.688720703125" height="293.3298034667969" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="4:607" name="4 15" x="8618.845703125" y="4942.00732421875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:608" name="4 16" x="8659.21484375" y="4942.00732421875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:609" name="4 10" x="8578.4765625" y="4942.44580078125" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:610" name="4 14" x="8618.845703125" y="4902.07763671875" width="39.92974090576172" height="39.92974090576172" />
+      <rounded-rectangle id="4:611" name="2 665" x="8618.40625" y="4863.02197265625" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:612" name="2 666" x="8618.40625" y="4823.53466796875" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:613" name="2 668" x="8657.8974609375" y="4823.53466796875" width="39.27155685424805" height="39.27155685424805" />
+      <rounded-rectangle id="4:614" name="2 669" x="8657.8974609375" y="4862.5869140625" width="39.27155685424805" height="39.27155685424805" />
+    </frame>
+  </frame>
+  <rounded-rectangle id="4:615" name="5 24" x="4476" y="3375" width="125" height="109" />
+  <rounded-rectangle id="4:616" name="1 51" x="4711" y="3370" width="127" height="120" />
+  <rounded-rectangle id="4:617" name="2 696" x="4946" y="3366" width="129" height="127" />
+  <text id="4:618" name="7" x="4590" y="3448" width="34" height="66" />
+  <text id="4:619" name="7" x="4828" y="3448" width="34" height="66" />
+  <text id="4:620" name="8" x="5064" y="3448" width="36" height="66" />
+  <text id="4:621" name="Level 2" x="8159" y="5495" width="347" height="117" />
+  <frame id="4:622" name="Group 469" x="464" y="3426" width="112" height="112" />
+  <frame id="4:634" name="Mask group" x="731" y="4408" width="839" height="584">
+    <rounded-rectangle id="4:635" name="Rectangle 497" x="731" y="4408" width="839" height="584" />
+    <rounded-rectangle id="4:636" name="image 21" x="425" y="4393" width="1154" height="517" />
+  </frame>
+  <frame id="4:637" name="Group 515" x="649" y="4286" width="1003" height="1022">
+    <rounded-rectangle id="4:638" name="Rectangle 496" x="731" y="4908" width="839" height="168" />
+    <symbol id="4:639" name=" " x="649" y="4286" width="1003" height="1022" />
+  </frame>
+  <instance id="4:645" name="header tab" x="877" y="4256" width="572" height="181" />
+  <text id="4:646" name="Under The Sea" x="925" y="4319" width="485" height="76" />
+  <text id="4:647" name="Left time: 6d 23h" x="894" y="4928" width="485" height="76" />
+  <frame id="4:648" name="Group 512" x="806" y="5010" width="705.5224609375" height="259.0203552246094">
+    <rounded-rectangle id="4:649" name="Rectangle 3 copy 3 7" x="806" y="5010" width="705.5224609375" height="259.0203552246094" />
+    <text id="4:650" name="Adventure" x="936" y="5072.796875" width="446" height="109" />
+  </frame>
+  <frame id="4:651" name="Group" x="1651" y="3414" width="111" height="127.29006958007812" />
+  <frame id="4:684" name="Group 551" x="1721.646484375" y="3388" width="70.35344696044922" height="80.74561309814453">
+    <symbol id="4:685" name="Component 4" x="1721.646484375" y="3388" width="70.35344696044922" height="80.74561309814453" />
+  </frame>
+  <rounded-rectangle id="4:694" name="9d8097c9-6421-4088-902d-3915a43778ea 1" x="645" y="3467.5" width="1006" height="783" />
+  <rounded-rectangle id="4:797" name="Asset 23-8" x="157" y="-819" width="1440" height="2960" />
+  <rounded-rectangle id="4:798" name="Asset 19-8" x="291" y="-736" width="116" height="93" />
+  <frame id="4:799" name="Group" x="241" y="-627" width="210.29998779296875" height="64.0999984741211" />
+  <frame id="4:804" name="Group" x="708" y="-478" width="382.4999694824219" height="116.50003051757812">
+    <vector id="4:805" name="Vector" x="708" y="-478" width="90.0999984741211" height="114.60000610351562" />
+    <vector id="4:806" name="Vector" x="809.0999755859375" y="-478" width="93.00000762939453" height="116.5" />
+    <vector id="4:807" name="Vector" x="905.2999877929688" y="-476.1000061035156" width="89.59999084472656" height="114.60000610351562" />
+    <vector id="4:808" name="Vector" x="1000.5999755859375" y="-476.20001220703125" width="89.89999389648438" height="114.70001220703125" />
+  </frame>
+  <frame id="4:809" name="Group" x="769" y="-563" width="263.1000061035156" height="54">
+    <frame id="4:810" name="Group" x="769" y="-563" width="263.1000061035156" height="54">
+      <vector id="4:811" name="Vector" x="769" y="-562.9000244140625" width="43.29999923706055" height="53.900001525878906" />
+      <vector id="4:812" name="Vector" x="817.4000244140625" y="-562.9000244140625" width="49.69999694824219" height="53.900001525878906" />
+      <vector id="4:813" name="Vector" x="870.7999877929688" y="-563" width="57.09999084472656" height="54" />
+      <vector id="4:814" name="Vector" x="937" y="-562" width="46.19999694824219" height="52.099998474121094" />
+      <vector id="4:815" name="Vector" x="991.7000122070312" y="-562" width="40.40000915527344" height="52.099998474121094" />
+    </frame>
+  </frame>
+  <frame id="4:816" name="Group" x="212" y="-292" width="1344" height="1344">
+    <vector id="4:817" name="Vector" x="215" y="-289" width="1338.0999755859375" height="1338" />
+    <frame id="4:818" name="Group" x="214" y="-289" width="1338" height="1338">
+      <vector id="4:819" name="Vector" x="214.09909057617188" y="-289" width="1337.90087890625" height="1337.9000244140625" />
+      <vector id="4:820" name="Vector" x="214" y="881.800048828125" width="1338" height="0" />
+      <vector id="4:821" name="Vector" x="214" y="714.5" width="1338" height="0" />
+      <vector id="4:822" name="Vector" x="214" y="547.2999877929688" width="1338" height="0" />
+      <vector id="4:823" name="Vector" x="214" y="380" width="1338" height="0" />
+      <vector id="4:824" name="Vector" x="214" y="212.79998779296875" width="1338" height="0" />
+      <vector id="4:825" name="Vector" x="214" y="45.5" width="1338" height="0" />
+      <vector id="4:826" name="Vector" x="214" y="-121.69999694824219" width="1338" height="0" />
+      <vector id="4:827" name="Vector" x="1384.800048828125" y="-289" width="0" height="1338" />
+      <vector id="4:828" name="Vector" x="1217.5" y="-289" width="0" height="1338" />
+      <vector id="4:829" name="Vector" x="1050.300048828125" y="-289" width="0" height="1338" />
+      <vector id="4:830" name="Vector" x="883" y="-289" width="0" height="1338" />
+      <vector id="4:831" name="Vector" x="715.7999877929688" y="-289" width="0" height="1338" />
+      <vector id="4:832" name="Vector" x="548.5" y="-289" width="0" height="1338" />
+      <vector id="4:833" name="Vector" x="381.29998779296875" y="-289" width="0" height="1338" />
+    </frame>
+    <vector id="4:834" name="Vector" x="215" y="-289" width="1337.901123046875" height="1338" />
+    <vector id="4:835" name="Vector" x="212" y="-292" width="1344" height="1344" />
+  </frame>
+  <frame id="4:836" name="Group" x="1444" y="1564" width="30.100000381469727" height="37" />
+  <frame id="4:838" name="Group" x="371" y="-122" width="506.10003662109375" height="506.1000061035156">
+    <vector id="4:839" name="Vector" x="539.7000122070312" y="-122" width="168.6999969482422" height="168.6999969482422" />
+    <vector id="4:840" name="Vector" x="539.7000122070312" y="46.69999694824219" width="168.6999969482422" height="168.6999969482422" />
+    <vector id="4:841" name="Vector" x="708.4000244140625" y="46.69999694824219" width="168.70001220703125" height="168.6999969482422" />
+    <vector id="4:842" name="Vector" x="371" y="46.69999694824219" width="168.6999969482422" height="168.6999969482422" />
+    <vector id="4:843" name="Vector" x="539.7000122070312" y="215.39999389648438" width="168.6999969482422" height="168.70001220703125" />
+  </frame>
+  <frame id="4:844" name="Group 62" x="312" y="1434" width="225" height="75">
+    <rounded-rectangle id="4:845" name="5 3" x="312" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:846" name="5 4" x="387" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:847" name="5 5" x="462" y="1434" width="75" height="75" />
+  </frame>
+  <frame id="4:848" name="Group 64" x="807" y="1359" width="225" height="150">
+    <rounded-rectangle id="4:849" name="3 3" x="807" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:850" name="3 4" x="882" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:851" name="3 5" x="957" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:852" name="3 6" x="957" y="1359" width="75" height="75" />
+  </frame>
+  <frame id="4:853" name="Group 66" x="1305" y="1434" width="149" height="75">
+    <rounded-rectangle id="4:854" name="2 659" x="1305" y="1434" width="75" height="75" />
+    <rounded-rectangle id="4:855" name="2 660" x="1379" y="1434" width="75" height="75" />
+  </frame>
+  <rounded-rectangle id="4:856" name="Layer 1 3" x="511" y="-6" width="248" height="238" />
+  <rounded-rectangle id="4:857" name="Rounded Rectangle 2 11" x="215" y="1145" width="242" height="126" />
+  <rounded-rectangle id="4:858" name="Rounded Rectangle 2 13" x="778" y="1145" width="242" height="126" />
+  <rounded-rectangle id="4:859" name="Rounded Rectangle 2 15" x="1301" y="1145" width="242" height="126" />
+  <text id="4:860" name="1" x="368" y="1168" width="26" height="78" />
+  <text id="4:861" name="2" x="932" y="1168" width="38" height="78" />
+  <text id="4:862" name="2" x="1454" y="1168" width="38" height="78" />
+  <rounded-rectangle id="4:863" name="Layer 2 3" x="789.5" y="1151" width="110" height="109" />
+  <rounded-rectangle id="4:864" name="Layer 4 3" x="1311.5" y="1137" width="119" height="129" />
+  <rounded-rectangle id="4:865" name="Layer 3 3" x="234" y="1145" width="86" height="103" />
+  <rounded-rectangle id="4:866" name="Combo 4" x="624" y="445" width="393" height="97" />
+  <rounded-rectangle id="4:867" name="7 14" x="1041" y="419" width="145" height="157" />
+  <rounded-rectangle id="4:868" name="4 37 4" x="716" y="715" width="165" height="165" />
+  <rounded-rectangle id="4:869" name="4 37 5" x="883" y="716.5" width="162" height="162" />
+  <rounded-rectangle id="4:870" name="4 37 6" x="1046" y="715" width="165" height="165" />
+  <rounded-rectangle id="4:871" name="Setting 2" x="1444" y="-741" width="94" height="95" />
+</canvas>

@@ -1,0 +1,18 @@
+* text=auto
+*.cs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.shader text eol=lf
+*.asmdef text eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.ttf binary
+*.otf binary
