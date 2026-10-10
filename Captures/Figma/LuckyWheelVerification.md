@@ -1,4 +1,4 @@
-PASS: 503 checks
+PASS: 513 checks
 
 PASS: Eight configured Figma sectors, explicit editable probabilities
 PASS: Weighted interval maps to visible sector 0
@@ -206,22 +206,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -279,9 +263,30 @@ PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
 PASS: RewardPopupController.layout reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Wheel respects natural safe area (1080, 1920)
+PASS: Wheel panel respects natural safe area (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Wheel (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Wheel (1080, 1920)
+PASS: Home stays visible behind popup: Wheel (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1080, 1920)
+PASS: Wheel panel centers on safe area (1080, 1920)
 PASS: Original transparent Figma disc, not a screen screenshot
 PASS: All eight amount labels visible on rotating sectors
 PASS: Disc and all eight reward icons assigned
@@ -365,22 +370,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: DailyTasksController.panel reference
 PASS: DailyTasksController.catalog reference
 PASS: DailyTasksController.countdown reference
@@ -438,9 +427,30 @@ PASS: RewardPopupController.coins reference
 PASS: RewardPopupController.cancel reference
 PASS: RewardPopupController.audioService reference
 PASS: RewardPopupController.layout reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Wheel respects natural safe area (1440, 2960)
+PASS: Wheel panel respects natural safe area (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Wheel (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Wheel (1440, 2960)
+PASS: Home stays visible behind popup: Wheel (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1440, 2960)
+PASS: Wheel panel centers on safe area (1440, 2960)
 PASS: Original transparent Figma disc, not a screen screenshot
 PASS: All eight amount labels visible on rotating sectors
 PASS: Disc and all eight reward icons assigned

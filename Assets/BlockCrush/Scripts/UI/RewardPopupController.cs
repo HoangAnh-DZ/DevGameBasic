@@ -27,14 +27,16 @@ namespace BlockCrush.UI
             confirmation=false; callback=acknowledged; heading.text="You get:"; buttonLabel.text="OK";
             artwork.sprite=rewardIcons[(int)kind]; amount.text=quantity > 0 ? quantity.ToString() : "";
             details.text=string.IsNullOrEmpty(detail) && kind!=WheelRewardKind.Coins ? kind.ToString() : detail;
-            cancel.gameObject.SetActive(false); Show(bounds);
+            if(cancel) cancel.gameObject.SetActive(false);
+            Show(bounds);
         }
         public void ConfirmDemo(ShopOffer offer, Action buy)
         {
             confirmation=true; callback=buy; heading.text="Demo purchase"; buttonLabel.text="Buy demo";
             artwork.sprite=rewardIcons[offer.boosters>0&&!offer.bundle?2:0];
             amount.text=offer.price; details.text=offer.title+"\n"+offer.Contents+"\nNo real payment";
-            cancel.gameObject.SetActive(true); Show(null);
+            if(cancel) cancel.gameObject.SetActive(true);
+            Show(null);
         }
         void Show(RectTransform bounds)
         {

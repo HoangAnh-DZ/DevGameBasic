@@ -73,9 +73,10 @@ namespace BlockCrush.UI.Editor
         static DailyTasksController BuildDaily(DailyTaskCatalog catalog)
         {
             var flow=Flow("DailyTasksFlow"); var controller=flow.gameObject.AddComponent<DailyTasksController>();
-            var popup=Rect("DailyTasksPopup",flow); Stretch(popup); Background(popup);
+            var popup=Rect("DailyTasksPopup",flow); Stretch(popup); Solid("ModalInputBlocker",popup,new Color(0,0,0,.65f));
             // Trim unused Figma canvas space so the actual panel fills the portrait safe area.
             var d=Design(popup,"DailyDesign",1432,2560);
+            d.GetComponent<FigmaLayoutFitter>().Configure(new Vector2(1432,2560),1,new Vector2(-12,-33));
             Picture("DailyFrame_7_16542",d,"DailyPanel",68,164,1272,2298);
             Picture("Calendar_7_16557",d,"DailyCalendar",134,131,270,302);
             Picture("DailyTitle_7_31084",d,"DailyTitle",468,238,571,114);

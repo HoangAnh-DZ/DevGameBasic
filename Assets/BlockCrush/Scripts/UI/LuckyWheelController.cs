@@ -43,7 +43,7 @@ namespace BlockCrush.UI
         {
             if(IsOpen) return;
             IsSpinning=false;
-            save=LuckyWheelSave.Load(); panel.SetActive(true); panel.transform.SetAsLastSibling();
+            save=LuckyWheelSave.Load(); panel.SetActive(true); transform.SetAsLastSibling();
             audioService.Feedback(); celebration=-1; rewardPlayed=false;
             if(save.pending!=null) { Land(save.pending.slot); save.Record(); ShowReceipt(false); }
             else if(save.last!=null)

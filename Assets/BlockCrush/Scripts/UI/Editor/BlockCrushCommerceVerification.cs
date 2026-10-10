@@ -21,6 +21,18 @@ namespace BlockCrush.UI.Editor
             yield return Loaded("Home");
             var daily=Find<DailyTasksController>(); var shop=Find<ShopController>(); var popup=Find<RewardPopupController>();
             Check(daily && shop && popup && daily.Catalog.Valid && shop.Catalog.Valid,"Saved Home has actual Daily, Shop, reward views and valid catalogs");
+            // A missing optional Cancel reference previously prevented all wheel/Daily rewards.
+            var cancelField=typeof(RewardPopupController).GetField("cancel",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic);
+            var savedCancel=cancelField.GetValue(popup); int acknowledgements=0, originalCoins=EconomySave.Load().coins;
+            try
+            {
+                cancelField.SetValue(popup,null);
+                popup.ShowReward(WheelRewardKind.Coins,100,"",()=>acknowledgements++);
+                Check(popup.IsOpen && popup.Amount=="100","Reward opens when optional Cancel reference is missing");
+                popup.Confirm(); popup.Confirm();
+                Check(acknowledgements==1 && EconomySave.Load().coins==originalCoins,"Missing Cancel does not duplicate acknowledgement or alter the wallet");
+            }
+            finally { cancelField.SetValue(popup,savedCancel); }
             Check(daily.Catalog.goals.SequenceEqual(new[]{2,4,6,8,10}) && daily.Catalog.coinReward==100,"Five balanced milestones with Figma 100-coin reward");
             var now=DateTime.UtcNow; var fixture=new EconomySave { dailyDay=LuckyWheelSave.Day(now),dailyPlays=1 };
             fixture.Save(); Check(!EconomySave.ClaimDaily(0,daily.Catalog,now),"Incomplete task cannot claim");
@@ -36,13 +48,23 @@ namespace BlockCrush.UI.Editor
                 yield return Resolution(size.x,size.y); yield return Click(Button("CalendarButton"));
                 Check(daily.IsOpen && !Find<MoreSettingsController>().InformationOpen,"Calendar opens real Daily Tasks "+size);
                 ValidateScene(); var design=(RectTransform)GameObject.Find("DailyDesign").transform;
-                yield return Fits(design,Screen.safeArea,"Daily safe area "+size);
+                var frame=(RectTransform)design.Find("DailyFrame_7_16542");
+                yield return Fits(frame,Screen.safeArea,"Daily panel safe area "+size);
+                ValidatePopupOverlay(design.parent.parent,"Daily "+size);
+                var dailyBounds=CommerceScreenRect(frame);
                 ValidateDailyLayout(Screen.safeArea);
                 Check(!Button("DailyClaimButton0").interactable,"Waiting Daily Claim visibly disabled");
                 yield return Capture("DailyTasks_Unity_"+size.x+"x"+size.y);
                 var inset=new Rect(60,100,size.x-120,size.y-240); var safe=design.parent.GetComponent<SafeAreaController>();
-                safe.enabled=false; safe.Apply(inset); yield return Fits(design,inset,"Daily fits notch + gestures "+size); ValidateDailyLayout(inset); safe.enabled=true; safe.Apply(Screen.safeArea); yield return Frames(5);
+                safe.enabled=false; safe.Apply(inset); yield return Fits(frame,inset,"Daily fits notch + gestures "+size); ValidateDailyLayout(inset); safe.enabled=true; safe.Apply(Screen.safeArea); yield return Frames(5);
                 yield return Click(Button("DailyCloseButton")); Check(!daily.IsOpen,"Daily Close restores Home "+size);
+                yield return Click(Button("WheelButton"));
+                var wheelFrame=(RectTransform)GameObject.Find("Panel_7_16502").transform;
+                var wheelBounds=CommerceScreenRect(wheelFrame);
+                Check(Vector2.Distance(dailyBounds.center,wheelBounds.center)<1 && Mathf.Abs(dailyBounds.width-wheelBounds.width)<1 && Mathf.Abs(dailyBounds.height-wheelBounds.height)<1,
+                    "Daily and Wheel panels have matching center and dimensions "+size);
+                ValidatePopupOverlay(wheelFrame.parent.parent.parent,"Wheel "+size);
+                yield return Click(Button("LuckyCloseButton"));
                 yield return Click(Button("ShopButton")); Check(shop.IsOpen && shop.BundlesVisible,"Shop opens Bundle tab "+size);
                 Check(GameObject.Find("BundleList").GetComponent<ScrollRect>().verticalNormalizedPosition>.95f,"Shop reopen starts at first offer "+size);
                 design=(RectTransform)GameObject.Find("ShopDesign").transform; ValidateScene();
@@ -151,6 +173,20 @@ namespace BlockCrush.UI.Editor
             var a=RectTransformUtility.WorldToScreenPoint(null,corners[0]);
             var b=RectTransformUtility.WorldToScreenPoint(null,corners[2]);
             return Rect.MinMaxRect(a.x,a.y,b.x,b.y);
+        }
+        static void ValidatePopupOverlay(Transform popup,string label)
+        {
+            var blocker=popup.Find("ModalInputBlocker").GetComponent<Image>();
+            Check(!blocker.sprite && blocker.raycastTarget && !blocker.GetComponent<AspectRatioFitter>() &&
+                blocker.color.r==0 && blocker.color.g==0 && blocker.color.b==0 && Mathf.Abs(blocker.color.a-.65f)<.001f,
+                "Plain translucent black backdrop blocks input: "+label);
+            var bounds=CommerceScreenRect(blocker.rectTransform);
+            Check(Mathf.Abs(bounds.xMin)<1 && Mathf.Abs(bounds.yMin)<1 && Mathf.Abs(bounds.width-Screen.width)<1 && Mathf.Abs(bounds.height-Screen.height)<1,
+                "Backdrop covers display including unsafe edges: "+label);
+            Check(Find<MainMenuController>().gameObject.activeInHierarchy && GameObject.Find("HomeDesign_4_280"),"Home stays visible behind popup: "+label);
+            var hits=new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>();
+            UnityEngine.EventSystems.EventSystem.current.RaycastAll(new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current){position=new Vector2(8,8)},hits);
+            Check(hits.Count>0 && hits[0].gameObject==blocker.gameObject,"Outside-panel input hits backdrop instead of Home: "+label);
         }
         static void CommerceTouchTarget(Button button)
         {

@@ -36,13 +36,12 @@ namespace BlockCrush.UI.Editor
             var flow=Rect("LuckyWheelFlow",canvas); Stretch(flow);
             var controller=flow.gameObject.AddComponent<LuckyWheelController>();
             var popup=Rect("LuckyWheelPopup",flow); Stretch(popup);
-            // Whole-screen opaque background, fitted to cover without stretching its artwork.
-            var backdrop=Picture("Background_7_16498",popup,"Background",0,0,1432,2934); Stretch(backdrop.rectTransform);
-            backdrop.raycastTarget=true; backdrop.gameObject.AddComponent<AspectRatioFitter>().aspectMode=AspectRatioFitter.AspectMode.EnvelopeParent;
-            backdrop.GetComponent<AspectRatioFitter>().aspectRatio=1432f/2934;
+            var backdrop=Rect("ModalInputBlocker",popup); Stretch(backdrop);
+            backdrop.gameObject.AddComponent<Image>().color=new Color(0,0,0,.65f);
             var safe=Rect("SafeArea",popup); Stretch(safe); safe.gameObject.AddComponent<SafeAreaController>();
-            var design=Rect("WheelDesign",safe); design.gameObject.AddComponent<FigmaLayoutFitter>().Configure(new Vector2(1432,2934));
-            Picture("Panel_7_16502",design,"Panel",73,164,1272,2299);
+            var design=Rect("WheelDesign",safe);
+            design.gameObject.AddComponent<FigmaLayoutFitter>().Configure(new Vector2(1432,2560),1,new Vector2(-7,-33));
+            Picture("Panel_7_16502",design,"Panel",73,164,1272,2298);
             Picture("Title_7_31085",design,"Title",365.7755f,243.8633f,688.5143f,93.167f);
             var disc=Rect("RotatingDisc",design); Center(disc,719,1126,892,892);
             Picture("Disc_7_31109",disc,"Disc",0,0,892,892);

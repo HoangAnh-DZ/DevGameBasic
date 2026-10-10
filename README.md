@@ -25,8 +25,8 @@ Build Settings đã có thứ tự Home → Classic → Adventure. Giao diện t
 ## Kiểm tra đã chạy
 
 - Bộ kiểm tra toàn luồng: **2.711 mục PASS** trước điều chỉnh cuối của popup.
-- Kiểm tra vòng quay sau điều chỉnh: **503 mục PASS**.
-- Kiểm tra Daily/Shop và popup dùng chung sau điều chỉnh: **814 mục PASS**.
+- Kiểm tra vòng quay sau điều chỉnh mới nhất: **513 mục PASS**.
+- Kiểm tra Daily/Shop và popup dùng chung sau điều chỉnh mới nhất: **838 mục PASS**.
 - Độ phân giải 1080×1920, 1440×2960, mô phỏng tai thỏ/vùng cử chỉ và đổi kích thước khi popup đang mở; Console cuối không lỗi hoặc cảnh báo.
 - Các bài kiểm tra chạy trong Unity Editor, khôi phục ví, vòng quay, tùy chọn và tiến trình sau khi chạy. Chưa kiểm tra trên thiết bị Android/iOS thật.
 
@@ -35,3 +35,5 @@ Báo cáo: [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](C
 Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()` hoặc `StartCommerce()`. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`.
 
 Chi tiết kỹ thuật: [gameplay](Assets/Scripts/BlockCrush/README.md), [UI và dữ liệu](Assets/BlockCrush/Scripts/UI/README.md). Nguồn thiết kế Figma và thông tin xuất artwork được giữ trong `Captures/Figma`; font có giấy phép đi kèm trong Assets.
+
+Daily và Lucky Wheel mở trên Home với lớp nền đen bán trong suốt, không dùng background riêng. Hai panel có cùng kích thước và căn giữa Safe Area. Popup nhận thưởng vẫn hoạt động nếu thiếu tham chiếu nút Cancel; scene đã được nối lại đầy đủ. Phần thưởng chưa xác nhận được hiện lại khi mở vòng quay và không cộng trùng vật phẩm.

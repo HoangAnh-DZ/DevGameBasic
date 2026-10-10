@@ -1,6 +1,8 @@
-PASS: 814 checks
+PASS: 838 checks
 
 PASS: Saved Home has actual Daily, Shop, reward views and valid catalogs
+PASS: Reward opens when optional Cancel reference is missing
+PASS: Missing Cancel does not duplicate acknowledgement or alter the wallet
 PASS: Five balanced milestones with Figma 100-coin reward
 PASS: Incomplete task cannot claim
 PASS: Task 0 grant is atomic and rejects repeated claim
@@ -64,22 +66,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
@@ -111,6 +97,22 @@ PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -139,7 +141,11 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Daily safe area (1080, 1920)
+PASS: Daily panel safe area (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Daily (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Daily (1080, 1920)
+PASS: Home stays visible behind popup: Daily (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Daily (1080, 1920)
 PASS: Daily panel occupies at least 85% of available width
 PASS: Daily panel is vertically centered with balanced outer margins
 PASS: 48-unit minimum mobile touch region: DailyCloseButton
@@ -182,6 +188,13 @@ PASS: Daily reset caption has space below the last card
 PASS: Daily reset caption clears the decorative bottom border
 PASS: Interactive button: DailyCloseButton
 PASS: Daily Close restores Home (1080, 1920)
+PASS: Interactive button: WheelButton
+PASS: Daily and Wheel panels have matching center and dimensions (1080, 1920)
+PASS: Plain translucent black backdrop blocks input: Wheel (1080, 1920)
+PASS: Backdrop covers display including unsafe edges: Wheel (1080, 1920)
+PASS: Home stays visible behind popup: Wheel (1080, 1920)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1080, 1920)
+PASS: Interactive button: LuckyCloseButton
 PASS: Interactive button: ShopButton
 PASS: Shop opens Bundle tab (1080, 1920)
 PASS: Shop reopen starts at first offer (1080, 1920)
@@ -235,22 +248,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -277,6 +274,22 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
@@ -478,7 +491,11 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: No missing sprites in Figma UI images
 PASS: Portrait Canvas configuration
-PASS: Daily safe area (1440, 2960)
+PASS: Daily panel safe area (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Daily (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Daily (1440, 2960)
+PASS: Home stays visible behind popup: Daily (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Daily (1440, 2960)
 PASS: Daily panel occupies at least 85% of available width
 PASS: Daily panel is vertically centered with balanced outer margins
 PASS: 48-unit minimum mobile touch region: DailyCloseButton
@@ -521,6 +538,13 @@ PASS: Daily reset caption has space below the last card
 PASS: Daily reset caption clears the decorative bottom border
 PASS: Interactive button: DailyCloseButton
 PASS: Daily Close restores Home (1440, 2960)
+PASS: Interactive button: WheelButton
+PASS: Daily and Wheel panels have matching center and dimensions (1440, 2960)
+PASS: Plain translucent black backdrop blocks input: Wheel (1440, 2960)
+PASS: Backdrop covers display including unsafe edges: Wheel (1440, 2960)
+PASS: Home stays visible behind popup: Wheel (1440, 2960)
+PASS: Outside-panel input hits backdrop instead of Home: Wheel (1440, 2960)
+PASS: Interactive button: LuckyCloseButton
 PASS: Interactive button: ShopButton
 PASS: Shop opens Bundle tab (1440, 2960)
 PASS: Shop reopen starts at first offer (1440, 2960)
@@ -574,22 +598,6 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -616,6 +624,22 @@ PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
 PASS: DailyTaskClaimButton.controller reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
