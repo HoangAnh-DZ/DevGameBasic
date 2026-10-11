@@ -59,7 +59,7 @@ namespace BlockCrush
 
             var size = safeArea.rect.size;
             float side = Mathf.Min(size.x * .89f, size.y * .53f);
-            boardArea.anchorMin = boardArea.anchorMax = new Vector2(.5f, .52f);
+            boardArea.anchorMin = boardArea.anchorMax = new Vector2(.5f, .555f);
             boardArea.sizeDelta = Vector2.one * side;
             boardArea.anchoredPosition = Vector2.zero;
             hud.anchorMin = new Vector2(0, 1);
@@ -68,7 +68,7 @@ namespace BlockCrush
             hud.sizeDelta = new Vector2(-size.x * .1f, 320);
             hud.anchoredPosition = new Vector2(0, -40);
             tray.anchorMin = new Vector2(.04f, .08f);
-            tray.anchorMax = new Vector2(.96f, .25f);
+            tray.anchorMax = new Vector2(.96f, .275f);
             tray.offsetMin = tray.offsetMax = Vector2.zero;
             // Cover the screen while retaining the imported background's aspect ratio.
             if (background && background.sprite)

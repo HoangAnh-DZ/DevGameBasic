@@ -116,10 +116,10 @@ namespace BlockCrush.UI.Editor
                 yield return Fits(design, Screen.safeArea, "Shop safe area " + size);
                 yield return Capture("ShopBundles_Unity_" + size.x + "x" + size.y);
                 ValidateShopLayout();
-                var footer = GameObject.Find("ShopStatus").GetComponent<Text>();
-                Check(footer.cachedTextGenerator.characterCountVisible == footer.text.Length, "Full demo notice generates visible glyphs " + size);
-                yield return Fits(footer.rectTransform, Screen.safeArea, "Demo notice stays inside screen " + size);
+                var footer = shop.GetComponentsInChildren<Text>(true).Single(t => t.name == "ShopStatus");
+                Check(!footer.gameObject.activeSelf && footer.text.Length == 0, "Shop hides development footer " + size);
                 yield return Click(Button("ShopBuyButton0"));
+                Check(Find<RewardPopupController>().GetComponentsInChildren<Text>().All(t => t.text.IndexOf("demo", StringComparison.OrdinalIgnoreCase) < 0 && !t.text.Contains("No real payment")), "Purchase confirmation contains only product/action text " + size);
                 var modal = (RectTransform)GameObject.Find("RewardDesign").transform;
                 yield return Fits(modal, Screen.safeArea, "Confirmation/reward modal fits safe area " + size);
                 yield return Capture("ShopConfirm_Unity_" + size.x + "x" + size.y);
@@ -208,6 +208,7 @@ namespace BlockCrush.UI.Editor
             yield return Click(Button("RewardOKButton"));
             var state = EconomySave.Load();
             Check(popup.IsOpen && !popup.IsConfirmation && state.coins == walletBefore + 4000 && state.bombs == 10 && state.boosters == 10 && state.reverses == 10, "Confirmed demo bundle grants exactly all displayed contents");
+            Check(popup.GetComponentsInChildren<Text>().All(t => t.text.IndexOf("demo", StringComparison.OrdinalIgnoreCase) < 0 && !t.text.Contains("No real payment")), "Shop reward keeps item contents without development labels");
             int purchases = state.demoSequence;
             for (int i = 0; i < 10; i++)
                 shop.Buy(0);

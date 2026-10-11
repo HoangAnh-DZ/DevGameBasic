@@ -1,4 +1,4 @@
-PASS: 838 checks
+PASS: 839 checks
 
 PASS: Saved Home has actual Daily, Shop, reward views and valid catalogs
 PASS: Reward opens when optional Cancel reference is missing
@@ -66,6 +66,22 @@ PASS: SceneNavigationController.audioService reference
 PASS: GameAudioService.soundSource reference
 PASS: GameAudioService.musicSource reference
 PASS: GameAudioService.accentSource reference
+PASS: LuckyWheelController.panel reference
+PASS: LuckyWheelController.disc reference
+PASS: LuckyWheelController.rewardBounds reference
+PASS: LuckyWheelController.spinButton reference
+PASS: LuckyWheelController.closeButton reference
+PASS: LuckyWheelController.spinLabel reference
+PASS: LuckyWheelController.timerView reference
+PASS: LuckyWheelController.countdown reference
+PASS: LuckyWheelController.result reference
+PASS: LuckyWheelController.availability reference
+PASS: LuckyWheelController.catalog reference
+PASS: LuckyWheelController.audioService reference
+PASS: LuckyWheelController.tick reference
+PASS: LuckyWheelController.stopped reference
+PASS: LuckyWheelController.recorded reference
+PASS: LuckyWheelController.rewards reference
 PASS: ShopController.panel reference
 PASS: ShopController.bundles reference
 PASS: ShopController.items reference
@@ -97,22 +113,6 @@ PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
 PASS: ShopPurchaseButton.controller reference
-PASS: LuckyWheelController.panel reference
-PASS: LuckyWheelController.disc reference
-PASS: LuckyWheelController.rewardBounds reference
-PASS: LuckyWheelController.spinButton reference
-PASS: LuckyWheelController.closeButton reference
-PASS: LuckyWheelController.spinLabel reference
-PASS: LuckyWheelController.timerView reference
-PASS: LuckyWheelController.countdown reference
-PASS: LuckyWheelController.result reference
-PASS: LuckyWheelController.availability reference
-PASS: LuckyWheelController.catalog reference
-PASS: LuckyWheelController.audioService reference
-PASS: LuckyWheelController.tick reference
-PASS: LuckyWheelController.stopped reference
-PASS: LuckyWheelController.recorded reference
-PASS: LuckyWheelController.rewards reference
 PASS: RewardPopupController.panel reference
 PASS: RewardPopupController.artwork reference
 PASS: RewardPopupController.heading reference
@@ -338,9 +338,9 @@ PASS: 48-unit minimum mobile touch region: ShopBuyButton1
 PASS: 48-unit minimum mobile touch region: ShopBuyButton2
 PASS: 48-unit minimum mobile touch region: ShopBuyButton3
 PASS: 48-unit minimum mobile touch region: ShopBuyButton4
-PASS: Full demo notice generates visible glyphs (1080, 1920)
-PASS: Demo notice stays inside screen (1080, 1920)
+PASS: Shop hides development footer (1080, 1920)
 PASS: Interactive button: ShopBuyButton0
+PASS: Purchase confirmation contains only product/action text (1080, 1920)
 PASS: Confirmation/reward modal fits safe area (1080, 1920)
 PASS: Interactive button: RewardCancelButton
 PASS: Actual scroll reaches Special Bundle (1080, 1920)
@@ -688,9 +688,9 @@ PASS: 48-unit minimum mobile touch region: ShopBuyButton1
 PASS: 48-unit minimum mobile touch region: ShopBuyButton2
 PASS: 48-unit minimum mobile touch region: ShopBuyButton3
 PASS: 48-unit minimum mobile touch region: ShopBuyButton4
-PASS: Full demo notice generates visible glyphs (1440, 2960)
-PASS: Demo notice stays inside screen (1440, 2960)
+PASS: Shop hides development footer (1440, 2960)
 PASS: Interactive button: ShopBuyButton0
+PASS: Purchase confirmation contains only product/action text (1440, 2960)
 PASS: Confirmation/reward modal fits safe area (1440, 2960)
 PASS: Interactive button: RewardCancelButton
 PASS: Actual scroll reaches Special Bundle (1440, 2960)
@@ -783,6 +783,7 @@ PASS: Cancel demo purchase grants nothing
 PASS: Interactive button: ShopBuyButton0
 PASS: Interactive button: RewardOKButton
 PASS: Confirmed demo bundle grants exactly all displayed contents
+PASS: Shop reward keeps item contents without development labels
 PASS: Purchase callback blocked while reward modal is visible
 PASS: Interactive button: RewardOKButton
 PASS: Interactive button: ShopItemsTab

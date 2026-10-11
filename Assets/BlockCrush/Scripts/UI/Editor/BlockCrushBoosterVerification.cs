@@ -66,13 +66,17 @@ namespace BlockCrush.UI.Editor
                 Check(buttons.All(b => !CommerceScreenRect((RectTransform)b.transform).Overlaps(pieceBounds)), label + " waiting piece does not cover any booster touch region: " + piece.Shape.id);
             }
 
+            var hints = UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<Text>(true)).Where(t => t.name == "DragHint");
+            Check(hints.All(t => !t.gameObject.activeSelf && t.text.Length == 0), label + " template drag instruction is removed");
             if (adventure)
                 return;
-            var guide = CommerceScreenRect(GameObject.Find("DragHint").GetComponent<RectTransform>());
             var board = CommerceScreenRect(game.Board.Rect);
-            Check(guide.yMin > board.yMax, label + " drag instruction sits above board without covering cells or boosters");
             var tray = CommerceScreenRect(game.Spawner.Slots[0].parent as RectTransform);
             Check(buttons.All(b => CommerceScreenRect((RectTransform)b.transform).yMax < tray.yMin), label + " Classic tray stays above booster toolbar");
+            Check(tray.yMax < board.yMin, label + " board stays above tray without overlapping pieces");
+            var safe = CommerceScreenRect(game.Spawner.Slots[0].parent.parent as RectTransform);
+            Check(buttons.All(b => (CommerceScreenRect((RectTransform)b.transform).yMin - safe.yMin) * (360f / Screen.width) >= 30), label + " Classic boosters have at least 30 logical units of bottom safe-area breathing room");
+            Check(Mathf.Abs((board.center.y - safe.yMin) / safe.height - .555f) < .001f, label + " Classic board is lifted to 55.5 percent of safe-area height");
         }
 
         static IEnumerator VerifyBoosters()

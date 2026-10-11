@@ -10,7 +10,7 @@ namespace BlockCrush.UI
         public int coins, bombs, boosters, reverses;
         public bool bundle, removeAds;
         public bool Valid => !string.IsNullOrEmpty(id) && coins >= 0 && bombs >= 0 && boosters >= 0 && reverses >= 0 && (removeAds || coins > 0 || bombs > 0 || boosters > 0 || reverses > 0);
-        public string Contents => removeAds ? "Remove Ads (demo entitlement)" : bundle ? coins + " coins · " + bombs + " bombs · " + boosters + " boosters · " + reverses + " reverse" : coins > 0 ? coins + " coins" : boosters + " booster";
+        public string Contents => removeAds ? "Remove Ads" : bundle ? coins + " coins · " + bombs + " bombs · " + boosters + " boosters · " + reverses + " reverse" : coins > 0 ? coins + " coins" : boosters + " booster";
     }
 
     [CreateAssetMenu(menuName = "Block Crush/Shop")]

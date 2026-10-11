@@ -1,4 +1,4 @@
-PASS: 332 checks
+PASS: 344 checks
 
 PASS: No missing scripts: BlockCrushGameplay
 PASS: BlockGameFeedback.game reference
@@ -61,8 +61,11 @@ PASS: Classic 1080x1920 waiting piece stays inside its slot: Horizontal5
 PASS: Classic 1080x1920 waiting piece does not cover any booster touch region: Horizontal5
 PASS: Classic 1080x1920 waiting piece stays inside its slot: Square3x3
 PASS: Classic 1080x1920 waiting piece does not cover any booster touch region: Square3x3
-PASS: Classic 1080x1920 drag instruction sits above board without covering cells or boosters
+PASS: Classic 1080x1920 template drag instruction is removed
 PASS: Classic 1080x1920 Classic tray stays above booster toolbar
+PASS: Classic 1080x1920 board stays above tray without overlapping pieces
+PASS: Classic 1080x1920 Classic boosters have at least 30 logical units of bottom safe-area breathing room
+PASS: Classic 1080x1920 Classic board is lifted to 55.5 percent of safe-area height
 PASS: Classic saved booster callback: ClassicBombButton
 PASS: Classic booster touch region at least 48 units: ClassicBombButton
 PASS: Classic saved booster callback: ClassicReverseButton
@@ -133,28 +136,34 @@ PASS: Classic 1440x2960 touch region at least 48 units: ClassicReverseButton
 PASS: Classic 1440x2960 touch region remains on screen: ClassicReverseButton
 PASS: Classic 1440x2960 touch region at least 48 units: ClassicThirdBoosterButton
 PASS: Classic 1440x2960 touch region remains on screen: ClassicThirdBoosterButton
-PASS: Classic 1440x2960 waiting piece stays inside its slot: Vertical3
-PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: Vertical3
-PASS: Classic 1440x2960 waiting piece stays inside its slot: L3_0
-PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: L3_0
-PASS: Classic 1440x2960 waiting piece stays inside its slot: L3_180
-PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: L3_180
-PASS: Classic 1440x2960 drag instruction sits above board without covering cells or boosters
+PASS: Classic 1440x2960 waiting piece stays inside its slot: Rectangle3x2
+PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: Rectangle3x2
+PASS: Classic 1440x2960 waiting piece stays inside its slot: L3_270
+PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: L3_270
+PASS: Classic 1440x2960 waiting piece stays inside its slot: S_0
+PASS: Classic 1440x2960 waiting piece does not cover any booster touch region: S_0
+PASS: Classic 1440x2960 template drag instruction is removed
 PASS: Classic 1440x2960 Classic tray stays above booster toolbar
+PASS: Classic 1440x2960 board stays above tray without overlapping pieces
+PASS: Classic 1440x2960 Classic boosters have at least 30 logical units of bottom safe-area breathing room
+PASS: Classic 1440x2960 Classic board is lifted to 55.5 percent of safe-area height
 PASS: Classic simulated notches/gesture area touch region at least 48 units: ClassicBombButton
 PASS: Classic simulated notches/gesture area touch region remains on screen: ClassicBombButton
 PASS: Classic simulated notches/gesture area touch region at least 48 units: ClassicReverseButton
 PASS: Classic simulated notches/gesture area touch region remains on screen: ClassicReverseButton
 PASS: Classic simulated notches/gesture area touch region at least 48 units: ClassicThirdBoosterButton
 PASS: Classic simulated notches/gesture area touch region remains on screen: ClassicThirdBoosterButton
-PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: Vertical3
-PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: Vertical3
-PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: L3_0
-PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: L3_0
-PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: L3_180
-PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: L3_180
-PASS: Classic simulated notches/gesture area drag instruction sits above board without covering cells or boosters
+PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: Rectangle3x2
+PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: Rectangle3x2
+PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: L3_270
+PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: L3_270
+PASS: Classic simulated notches/gesture area waiting piece stays inside its slot: S_0
+PASS: Classic simulated notches/gesture area waiting piece does not cover any booster touch region: S_0
+PASS: Classic simulated notches/gesture area template drag instruction is removed
 PASS: Classic simulated notches/gesture area Classic tray stays above booster toolbar
+PASS: Classic simulated notches/gesture area board stays above tray without overlapping pieces
+PASS: Classic simulated notches/gesture area Classic boosters have at least 30 logical units of bottom safe-area breathing room
+PASS: Classic simulated notches/gesture area Classic board is lifted to 55.5 percent of safe-area height
 PASS: Classic bomb coordinates follow resized safe-area board
 PASS: Classic tall-screen booster touch region: ClassicBombButton
 PASS: Classic tall-screen booster touch region: ClassicReverseButton
@@ -238,6 +247,7 @@ PASS: Adventure 1080x1920 waiting piece stays inside its slot: Horizontal5
 PASS: Adventure 1080x1920 waiting piece does not cover any booster touch region: Horizontal5
 PASS: Adventure 1080x1920 waiting piece stays inside its slot: Square3x3
 PASS: Adventure 1080x1920 waiting piece does not cover any booster touch region: Square3x3
+PASS: Adventure 1080x1920 template drag instruction is removed
 PASS: Adventure saved booster callback: AdventureBombButton
 PASS: Adventure booster touch region at least 48 units: AdventureBombButton
 PASS: Adventure saved booster callback: AdventureReverseButton
@@ -308,24 +318,26 @@ PASS: Adventure 1440x2960 touch region at least 48 units: AdventureReverseButton
 PASS: Adventure 1440x2960 touch region remains on screen: AdventureReverseButton
 PASS: Adventure 1440x2960 touch region at least 48 units: AdventureThirdBoosterButton
 PASS: Adventure 1440x2960 touch region remains on screen: AdventureThirdBoosterButton
-PASS: Adventure 1440x2960 waiting piece stays inside its slot: Vertical4
-PASS: Adventure 1440x2960 waiting piece does not cover any booster touch region: Vertical4
-PASS: Adventure 1440x2960 waiting piece stays inside its slot: Horizontal5
-PASS: Adventure 1440x2960 waiting piece does not cover any booster touch region: Horizontal5
+PASS: Adventure 1440x2960 waiting piece stays inside its slot: L3_90
+PASS: Adventure 1440x2960 waiting piece does not cover any booster touch region: L3_90
+PASS: Adventure 1440x2960 waiting piece stays inside its slot: L3_180
+PASS: Adventure 1440x2960 waiting piece does not cover any booster touch region: L3_180
 PASS: Adventure 1440x2960 waiting piece stays inside its slot: Horizontal2
 PASS: Adventure 1440x2960 waiting piece does not cover any booster touch region: Horizontal2
+PASS: Adventure 1440x2960 template drag instruction is removed
 PASS: Adventure simulated notches/gesture area touch region at least 48 units: AdventureBombButton
 PASS: Adventure simulated notches/gesture area touch region remains on screen: AdventureBombButton
 PASS: Adventure simulated notches/gesture area touch region at least 48 units: AdventureReverseButton
 PASS: Adventure simulated notches/gesture area touch region remains on screen: AdventureReverseButton
 PASS: Adventure simulated notches/gesture area touch region at least 48 units: AdventureThirdBoosterButton
 PASS: Adventure simulated notches/gesture area touch region remains on screen: AdventureThirdBoosterButton
-PASS: Adventure simulated notches/gesture area waiting piece stays inside its slot: Vertical4
-PASS: Adventure simulated notches/gesture area waiting piece does not cover any booster touch region: Vertical4
-PASS: Adventure simulated notches/gesture area waiting piece stays inside its slot: Horizontal5
-PASS: Adventure simulated notches/gesture area waiting piece does not cover any booster touch region: Horizontal5
+PASS: Adventure simulated notches/gesture area waiting piece stays inside its slot: L3_90
+PASS: Adventure simulated notches/gesture area waiting piece does not cover any booster touch region: L3_90
+PASS: Adventure simulated notches/gesture area waiting piece stays inside its slot: L3_180
+PASS: Adventure simulated notches/gesture area waiting piece does not cover any booster touch region: L3_180
 PASS: Adventure simulated notches/gesture area waiting piece stays inside its slot: Horizontal2
 PASS: Adventure simulated notches/gesture area waiting piece does not cover any booster touch region: Horizontal2
+PASS: Adventure simulated notches/gesture area template drag instruction is removed
 PASS: Adventure bomb coordinates follow resized safe-area board
 PASS: Adventure tall-screen booster touch region: AdventureBombButton
 PASS: Adventure tall-screen booster touch region: AdventureReverseButton

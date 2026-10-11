@@ -107,7 +107,7 @@ namespace BlockCrush.Editor
 
             var spawner = tray.gameObject.AddComponent<BlockPieceSpawner>();
             spawner.Configure(slots, sprites, manager);
-            Label("DragHint", safe, "DRAG BLOCKS TO THE GRID", 25, new Vector2(.5f, .055f), Vector2.zero, new Vector2(900, 50));
+            Label("DragHint", safe, "", 25, new Vector2(.5f, .055f), Vector2.zero, new Vector2(900, 50)).gameObject.SetActive(false);
             var drag = Rect("DragLayer", safe);
             Stretch(drag);
             var modal = Rect("GameOverPanel", canvasRT);
@@ -247,9 +247,11 @@ namespace BlockCrush.Editor
             }
 
             var gameType = assembly.GetType("UnityEditor.GameView");
-            var window = EditorWindow.GetWindow(gameType);
+            // Resize the existing view without opening a tab or taking focus from another app.
+            var window = Resources.FindObjectsOfTypeAll(gameType).OfType<EditorWindow>().FirstOrDefault();
+            if (!window)
+                throw new InvalidOperationException("An existing Game View is required to change test resolution.");
             gameType.GetProperty("selectedSizeIndex", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).SetValue(window, index);
-            window.Focus();
             window.Repaint();
             return width + "x" + height;
         }

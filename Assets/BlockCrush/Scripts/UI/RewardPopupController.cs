@@ -60,11 +60,11 @@ namespace BlockCrush.UI
         {
             confirmation = true;
             callback = buy;
-            heading.text = "Demo purchase";
-            buttonLabel.text = "Buy demo";
+            heading.text = "Confirm purchase";
+            buttonLabel.text = "Confirm";
             artwork.sprite = rewardIcons[offer.boosters > 0 && !offer.bundle ? 2 : 0];
             amount.text = offer.price;
-            details.text = offer.title + "\n" + offer.Contents + "\nNo real payment";
+            details.text = offer.title + "\n" + offer.Contents;
             if (cancel)
                 cancel.gameObject.SetActive(true);
             Show(null);

@@ -293,7 +293,8 @@ namespace BlockCrush.UI.Editor
             var itemTab = PathButton("ShopItemsTab", d, Art + "BuyGreen.png", 740, 2546, 600, 236, controller.ShowItems);
             itemTab.GetComponent<Image>().preserveAspect = true;
             var itemLabel = Label("Label", itemTab.transform, "Items", 68, 0, 0, 600, 236);
-            var status = Label("ShopStatus", d, "DEMO • No real payment", 48, 92, 2834, 1248, 56);
+            var status = Label("ShopStatus", d, "", 48, 92, 2834, 1248, 56);
+            status.gameObject.SetActive(false);
             d.gameObject.AddComponent<ShopResponsiveLayout>().Configure((RectTransform)bundleList.parent, (RectTransform)itemList.parent, (RectTransform)bundleTab.transform, (RectTransform)itemTab.transform, status.rectTransform);
             controller.Configure(popup.gameObject, bundleList.parent.gameObject, itemList.parent.gameObject, catalog, rewards, audio, UnityEngine.Object.FindFirstObjectByType<MoreSettingsController>(), RewardSound(), status, noAds, noAdsText, bundleLabel, itemLabel);
             itemList.parent.gameObject.SetActive(false);

@@ -46,6 +46,9 @@ namespace BlockCrush.UI.Editor
         {
             var roots = scene.GetRootGameObjects();
             var game = roots.SelectMany(r => r.GetComponentsInChildren<BlockGameManager>(true)).Single();
+            var portrait = roots.SelectMany(r => r.GetComponentsInChildren<BlockPortraitLayout>(true)).FirstOrDefault();
+            if (portrait)
+                portrait.Apply();
             var settings = roots.SelectMany(r => r.GetComponentsInChildren<SettingsPanelController>(true)).Single();
             var controller = game.GetComponent<GameplayBoosterController>();
             if (!controller)
@@ -65,7 +68,7 @@ namespace BlockCrush.UI.Editor
                     bar.anchorMax = new Vector2(.94f, 0);
                     bar.pivot = new Vector2(.5f, 0);
                     bar.offsetMin = bar.offsetMax = Vector2.zero;
-                    bar.anchoredPosition = new Vector2(0, 2);
+                    bar.anchoredPosition = new Vector2(0, safe.rect.width * .09f);
                     var aspect = bar.gameObject.AddComponent<AspectRatioFitter>();
                     aspect.aspectMode = AspectRatioFitter.AspectMode.WidthControlsHeight;
                     aspect.aspectRatio = 1000f / 160;
@@ -78,15 +81,14 @@ namespace BlockCrush.UI.Editor
                 }
 
                 design = bar.Find("ClassicBoosterDesign");
-                var guide = safe.GetComponentsInChildren<Text>(true).Single(t => t.name == "DragHint");
-                var guideRect = guide.rectTransform;
-                guideRect.SetParent(game.Board.transform, false);
-                guideRect.anchorMin = new Vector2(0, 1);
-                guideRect.anchorMax = Vector2.one;
-                guideRect.pivot = new Vector2(.5f, 0);
-                guideRect.offsetMin = guideRect.offsetMax = Vector2.zero;
-                guideRect.sizeDelta = new Vector2(0, 40);
-                guideRect.anchoredPosition = new Vector2(0, 22);
+                Canvas.ForceUpdateCanvases();
+                bar.GetComponent<GameplayBoosterLayout>().Apply();
+            }
+
+            foreach (var guide in roots.SelectMany(r => r.GetComponentsInChildren<Text>(true)).Where(t => t.name == "DragHint"))
+            {
+                guide.text = "";
+                guide.gameObject.SetActive(false);
             }
 
             string prefix = adventure ? "Adventure" : "Classic";

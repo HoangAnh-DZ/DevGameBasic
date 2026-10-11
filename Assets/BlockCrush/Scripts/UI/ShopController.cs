@@ -119,7 +119,7 @@ namespace BlockCrush.UI
 #if UNITY_EDITOR
             rewards.ConfirmDemo(offer, () => CompleteDemo(index));
 #else
-            information.ShowInformation("Shop", "Real purchases require a connected store. Demo purchases are available in Unity Editor only.");
+            information.ShowInformation("Shop", "Purchases are not available in this build.");
 #endif
         }
 
@@ -132,7 +132,7 @@ namespace BlockCrush.UI
                 return;
             audioService.PlaySound(rewardClip);
             Refresh();
-            rewards.ShowReward(offer.boosters > 0 && !offer.bundle ? WheelRewardKind.Booster : WheelRewardKind.Coins, offer.coins > 0 ? offer.coins : offer.boosters, "DEMO · " + offer.Contents);
+            rewards.ShowReward(offer.boosters > 0 && !offer.bundle ? WheelRewardKind.Booster : WheelRewardKind.Coins, offer.coins > 0 ? offer.coins : offer.boosters, offer.Contents);
         }
 
         public void Refresh()
@@ -140,11 +140,8 @@ namespace BlockCrush.UI
             bool owned = EconomySave.Load().removeAds;
             removeAdsButton.interactable = !owned;
             ownedLabel.text = owned ? "Owned" : catalog.offers[5].price;
-#if UNITY_EDITOR
-            status.text = "DEMO • No real payment";
-#else
-            status.text="Store not connected";
-#endif
+            status.text = "";
+            status.gameObject.SetActive(false);
         }
     }
 }
