@@ -144,6 +144,35 @@ namespace BlockCrush.UI
 #endif
         }
 
+        public static bool TryConsumeBooster(WheelRewardKind kind)
+        {
+            // Read the durable balance again: stale views cannot spend the same item twice.
+            if (kind != WheelRewardKind.Bomb && kind != WheelRewardKind.Booster && kind != WheelRewardKind.Reverse)
+                return false;
+            var state = Load();
+            switch (kind)
+            {
+                case WheelRewardKind.Bomb:
+                    if (state.bombs == 0)
+                        return false;
+                    state.bombs--;
+                    break;
+                case WheelRewardKind.Booster:
+                    if (state.boosters == 0)
+                        return false;
+                    state.boosters--;
+                    break;
+                case WheelRewardKind.Reverse:
+                    if (state.reverses == 0)
+                        return false;
+                    state.reverses--;
+                    break;
+            }
+
+            state.Save();
+            return true;
+        }
+
         public TimeSpan Remaining(DateTime now)
         {
             long day = Math.Max(dailyDay, LuckyWheelSave.Day(now));

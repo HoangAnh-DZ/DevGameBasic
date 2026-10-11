@@ -32,6 +32,7 @@ namespace BlockCrush.UI
         public bool Lost { get; private set; }
         public int MovesUsed { get; private set; }
         public int MovesRemaining => Mathf.Max(0, catalog.MaxMoves(Level) - MovesUsed);
+        public AdventureLevelCatalog.Level BoosterSettings => catalog.Get(Level);
         public string FailureReason { get; private set; }
         public string BestScoreKey => AdventureProgress.BestKey(Level);
         public bool TutorialVisible => tutorial.activeSelf;
@@ -203,7 +204,8 @@ namespace BlockCrush.UI
                 navigation.AdventureGameplay();
         }
 
-        public void Booster() => information.ShowInformation("Booster", "Adventure booster rules and inventory have not been supplied. No booster is consumed.");
+        // Compatibility for scenes created before the dedicated booster builder.
+        public void Booster() => GetComponent<GameplayBoosterController>()?.ToggleBomb();
         void OnDestroy()
         {
             if (game)

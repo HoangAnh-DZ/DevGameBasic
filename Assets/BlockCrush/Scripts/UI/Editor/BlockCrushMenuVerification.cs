@@ -311,6 +311,7 @@ namespace BlockCrush.UI.Editor
             yield return VerifyCommerce();
             yield return VerifyAdventure();
             yield return VerifyFeedback();
+            yield return VerifyBoosters();
             yield return Click(Button("SettingsButton"));
             Check(Find<SettingsPanelController>().IsOpen, "Home Settings opens");
             var keyButtons = new[]
@@ -518,9 +519,16 @@ namespace BlockCrush.UI.Editor
             yield return Resolution(1080, 1920);
             yield return Fits(design, Screen.safeArea, "1080 gameplay fits safe area");
             yield return Capture("AdventureLevel_Unity_1080x1920");
+            var boosterWallet = EconomySave.Load();
+            int originalBombs = boosterWallet.bombs;
+            boosterWallet.bombs = 0;
+            boosterWallet.Save();
             yield return Click(Button("AdventureBombButton"));
-            Check(Find<MoreSettingsController>().InformationOpen, "Unspecified booster retains availability UI");
+            Check(Find<MoreSettingsController>().InformationOpen && !Find<GameplayBoosterController>().BombArmed, "Empty bomb inventory opens availability notice without arming or spending");
             yield return Click(InformationClose());
+            boosterWallet = EconomySave.Load();
+            boosterWallet.bombs = originalBombs;
+            boosterWallet.Save();
             yield return Click(Button("AdventureSettingsButton"));
             Check(game.IsPaused, "Adventure Settings pauses level");
             yield return Click(InSettings("ReplayButton"));

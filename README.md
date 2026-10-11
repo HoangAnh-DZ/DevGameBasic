@@ -19,20 +19,22 @@ Build Settings đã có thứ tự Home → Classic → Adventure. Giao diện t
 - Daily Tasks: hoàn thành 2/4/6/8/10 ván Adventure; mỗi mốc nhận 100 xu, reset lúc 00:00 UTC, không nhận trùng thưởng.
 - Shop: tab Bundles/Items, cuộn danh sách, xác nhận/hủy mua demo, cộng đúng vật phẩm và trạng thái Owned cho Remove Ads.
 - Settings: bật/tắt âm thanh, nhạc và rung, lưu tùy chọn; giao diện thích ứng kích thước màn hình.
+- Booster dùng được trong Classic và Adventure: Bom dọn vùng 3×3; Reverse đổi các khối còn lại; +1 biến khối lớn nhất trên khay thành khối đơn 1×1. Chỉ trừ một vật phẩm khi có tác dụng, không cộng điểm hoặc lượt bằng booster.
 
-**Shop chỉ chạy mua demo trong Unity Editor, chưa có thanh toán thật hoặc SDK quảng cáo.** Ví demo Editor tách khỏi ví bản build. Vật phẩm được lưu và hiển thị; sử dụng booster trong gameplay chưa được triển khai. Thời gian reset dùng đồng hồ UTC của thiết bị.
+**Shop chỉ chạy mua demo trong Unity Editor, chưa có thanh toán thật hoặc SDK quảng cáo.** Ví demo Editor tách khỏi ví bản build. Booster dùng vật phẩm đã nhận từ Shop hoặc Lucky Wheel và lưu số dư sau mỗi lần dùng thành công. Thời gian reset dùng đồng hồ UTC của thiết bị.
 
 ## Kiểm tra đã chạy
 
-- Bộ kiểm tra toàn luồng sau tối ưu: **2.885 mục PASS**; core Classic bằng chuột/cảm ứng **65 mục PASS**; kiểm tra cache, HUD, layout và dữ liệu **43 mục PASS**.
+- Bộ kiểm tra toàn luồng sau bổ sung booster: **3.289 mục PASS**; riêng booster Classic/Adventure **332 mục PASS**; core Classic bằng chuột/cảm ứng **65 mục PASS**; kiểm tra cache, HUD, layout và dữ liệu **43 mục PASS**.
+- Dựng booster hai lần trên mỗi scene tạm không tạo trùng object/callback. Compile script Player Windows có **26 assembly PASS**; 27 tùy chọn/tiến trình và hai bản JSON ví/vòng quay được đối chiếu, khôi phục đúng dữ liệu trước kiểm tra.
 - Công cụ dựng UI: **6 mục PASS** trong scene tạm. Compile Editor và script Player Windows PASS; Console cuối không lỗi hoặc cảnh báo.
 - Các lần kiểm tra riêng trước đó cho bản sửa popup: **513 mục vòng quay PASS**, **838 mục Daily/Shop PASS**.
 - Độ phân giải 1080×1920, 1440×2960, mô phỏng tai thỏ/vùng cử chỉ và đổi kích thước khi popup đang mở; Console cuối không lỗi hoặc cảnh báo.
 - Các bài kiểm tra chạy trong Unity Editor, khôi phục ví, vòng quay, tùy chọn và tiến trình sau khi chạy. Chưa kiểm tra trên thiết bị Android/iOS thật.
 
-Báo cáo: [tối ưu code](Captures/Figma/OptimizationReview.md), [kiểm tra cache/layout](Captures/Figma/OptimizationVerification.md), [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](Captures/Figma/LuckyWheelVerification.md), [Daily/Shop](Captures/Figma/CommerceVerification.md), [toàn luồng](Captures/Figma/MenuVerification.md). Ảnh sau điều chỉnh: [1080×1920](Captures/Figma/LuckyWheel_CoinReward_Unity_1080x1920.png), [1440×2960](Captures/Figma/LuckyWheel_CoinReward_Unity_1440x2960.png).
+Báo cáo: [booster và phạm vi thay đổi](Captures/Figma/BoosterReview.md), [kiểm tra booster](Captures/Figma/BoosterVerification.md), [tối ưu code](Captures/Figma/OptimizationReview.md), [kiểm tra cache/layout](Captures/Figma/OptimizationVerification.md), [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](Captures/Figma/LuckyWheelVerification.md), [Daily/Shop](Captures/Figma/CommerceVerification.md), [toàn luồng](Captures/Figma/MenuVerification.md). Ảnh booster: [Classic](Captures/Figma/Classic_Boosters_Unity_1080x1920.png), [Adventure](Captures/Figma/Adventure_Boosters_Unity_1080x1920.png); chọn vùng bom: [Classic](Captures/Figma/Classic_BombTarget_Unity_1080x1920.png), [Adventure](Captures/Figma/Adventure_BombTarget_Unity_1080x1920.png).
 
-Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()`, `StartCommerce()` hoặc `StartOptimization()`. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`; bộ này chỉ chạy trong scene Classic.
+Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()`, `StartCommerce()`, `StartOptimization()` hoặc `StartBoosters()`. Bộ toàn luồng có kiểm tra booster ở cả hai màn chơi. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`; bộ này chỉ chạy trong scene Classic.
 
 Chi tiết kỹ thuật: [gameplay](Assets/Scripts/BlockCrush/README.md), [UI và dữ liệu](Assets/BlockCrush/Scripts/UI/README.md). Nguồn thiết kế Figma và thông tin xuất artwork được giữ trong `Captures/Figma`; font có giấy phép đi kèm trong Assets.
 

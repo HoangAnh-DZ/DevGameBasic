@@ -254,6 +254,7 @@ namespace BlockCrush.UI.Editor
             controller.Configure(game, catalog, navigation, settings.GetComponent<MoreSettingsController>(), level, progress, best, target, fill, hand, win.gameObject, title, score, next, nextLabel, moves);
             win.gameObject.SetActive(false);
             settings.transform.SetAsLastSibling();
+            BlockCrushBoosterBuilder.ConfigureScene(scene);
             BlockCrushTextContrastBuilder.ApplyToScene(scene);
             EditorSceneManager.SaveScene(scene);
             AssetDatabase.SaveAssets();

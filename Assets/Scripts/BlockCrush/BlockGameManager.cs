@@ -37,6 +37,7 @@ namespace BlockCrush
         public IBlockGameRules Rules { get; set; }
         public IBlockGameFeedback Feedback { get; set; }
 
+        public event System.Action SessionRestarted;
         string ActiveBestKey => Rules == null ? BestScoreKey : Rules.BestScoreKey;
 
         public void Configure(BlockBoard b, BlockPieceSpawner s, RectTransform drag, Text score, Text best, Text combo, GameObject panel, Text finalScore, Text finalBest, Button restart)
@@ -77,6 +78,7 @@ namespace BlockCrush
             UpdateUI();
             Canvas.ForceUpdateCanvases();
             spawner.SpawnSet();
+            SessionRestarted?.Invoke();
             CheckGameOver();
         }
 

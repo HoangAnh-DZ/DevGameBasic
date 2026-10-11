@@ -108,6 +108,7 @@ namespace BlockCrush.UI.Editor
             BlockCrushWheelBuilder.Build();
             // Replacing SettingsUI invalidates the gameplay presenters' old audio reference.
             BlockCrushFeedbackBuilder.Build();
+            BlockCrushBoosterBuilder.Build();
             BlockCrush.Editor.BlockCrushSceneBuilder.SetGameViewSize(1080, 1920);
             AssetDatabase.SaveAssets();
             return "Imported Figma sprites, shared Settings UI prefab, Home, Adventure, gameplay integration and startup Build Settings saved.";
