@@ -21,7 +21,7 @@ Build Settings đã có thứ tự Home → Classic → Adventure. Giao diện t
 - Settings: bật/tắt âm thanh, nhạc và rung, lưu tùy chọn; giao diện thích ứng kích thước màn hình.
 - Booster dùng được trong Classic và Adventure: Bom dọn vùng 3×3; Reverse đổi các khối còn lại; +1 biến khối lớn nhất trên khay thành khối đơn 1×1. Chỉ trừ một vật phẩm khi có tác dụng, không cộng điểm hoặc lượt bằng booster.
 
-**Shop chỉ chạy mua demo trong Unity Editor, chưa có thanh toán thật hoặc SDK quảng cáo.** Ví demo Editor tách khỏi ví bản build. Booster dùng vật phẩm đã nhận từ Shop hoặc Lucky Wheel và lưu số dư sau mỗi lần dùng thành công. Thời gian reset dùng đồng hồ UTC của thiết bị.
+**Shop chỉ chạy mua demo trong Unity Editor, chưa có thanh toán thật ** Ví demo Editor tách khỏi ví bản build. Booster dùng vật phẩm đã nhận từ Shop hoặc Lucky Wheel và lưu số dư sau mỗi lần dùng thành công. Thời gian reset dùng đồng hồ UTC của thiết bị.
 
 Chi tiết kỹ thuật: [gameplay](Assets/Scripts/BlockCrush/README.md), [UI và dữ liệu](Assets/BlockCrush/Scripts/UI/README.md). Nguồn thiết kế Figma và thông tin xuất artwork được giữ trong `Captures/Figma`; font có giấy phép đi kèm trong Assets.
 
