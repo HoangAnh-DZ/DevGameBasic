@@ -23,19 +23,6 @@ Build Settings đã có thứ tự Home → Classic → Adventure. Giao diện t
 
 **Shop chỉ chạy mua demo trong Unity Editor, chưa có thanh toán thật hoặc SDK quảng cáo.** Ví demo Editor tách khỏi ví bản build. Booster dùng vật phẩm đã nhận từ Shop hoặc Lucky Wheel và lưu số dư sau mỗi lần dùng thành công. Thời gian reset dùng đồng hồ UTC của thiết bị.
 
-## Kiểm tra đã chạy
-
-- Bộ kiểm tra toàn luồng sau căn chỉnh bố cục: **3.302 mục PASS**; riêng booster Classic/Adventure **344 mục PASS**; Daily/Shop **839 mục PASS**; core Classic bằng chuột/cảm ứng **65 mục PASS**; kiểm tra cache, HUD, layout và dữ liệu **43 mục PASS**.
-- Dựng booster hai lần trên mỗi scene tạm không tạo trùng object/callback. Compile script Player Windows có **26 assembly PASS**; 27 tùy chọn/tiến trình và hai bản JSON ví/vòng quay được đối chiếu, khôi phục đúng dữ liệu trước kiểm tra.
-- Công cụ dựng UI: **6 mục PASS** trong scene tạm. Compile Editor và script Player Windows PASS; Console cuối không lỗi hoặc cảnh báo.
-- Các lần kiểm tra riêng trước đó cho bản sửa popup: **513 mục vòng quay PASS**, **838 mục Daily/Shop PASS**.
-- Độ phân giải 1080×1920, 1440×2960, mô phỏng tai thỏ/vùng cử chỉ và đổi kích thước khi popup đang mở; Console cuối không lỗi hoặc cảnh báo.
-- Các bài kiểm tra chạy trong Unity Editor, khôi phục ví, vòng quay, tùy chọn và tiến trình sau khi chạy. Chưa kiểm tra trên thiết bị Android/iOS thật.
-
-Báo cáo: [căn chỉnh bố cục và bỏ chữ phụ](Captures/Figma/GameplayLayoutReview.md), [booster và phạm vi thay đổi](Captures/Figma/BoosterReview.md), [kiểm tra booster](Captures/Figma/BoosterVerification.md), [tối ưu code](Captures/Figma/OptimizationReview.md), [kiểm tra cache/layout](Captures/Figma/OptimizationVerification.md), [tổng hợp](Captures/Figma/CompletionChecklist.md), [vòng quay](Captures/Figma/LuckyWheelVerification.md), [Daily/Shop](Captures/Figma/CommerceVerification.md), [toàn luồng](Captures/Figma/MenuVerification.md). Ảnh booster: [Classic](Captures/Figma/Classic_Boosters_Unity_1080x1920.png), [Adventure](Captures/Figma/Adventure_Boosters_Unity_1080x1920.png); chọn vùng bom: [Classic](Captures/Figma/Classic_BombTarget_Unity_1080x1920.png), [Adventure](Captures/Figma/Adventure_BombTarget_Unity_1080x1920.png).
-
-Để chạy lại bộ kiểm tra giao diện, mở Home trong Play Mode rồi gọi `BlockCrush.UI.Editor.BlockCrushMenuVerification.Start()`, `StartWheel()`, `StartCommerce()`, `StartOptimization()` hoặc `StartBoosters()`. Bộ toàn luồng có kiểm tra booster ở cả hai màn chơi. Có thể gọi qua Unity MCP khi Editor chạy ngầm; helper đổi độ phân giải dùng Game View đã có sẵn và không mở/focus tab. Không chạy các bộ kiểm tra cùng lúc. Core Classic có menu `Block Crush > Verify Current Scene in Play Mode`; bộ này chỉ chạy trong scene Classic.
-
 Chi tiết kỹ thuật: [gameplay](Assets/Scripts/BlockCrush/README.md), [UI và dữ liệu](Assets/BlockCrush/Scripts/UI/README.md). Nguồn thiết kế Figma và thông tin xuất artwork được giữ trong `Captures/Figma`; font có giấy phép đi kèm trong Assets.
 
 Daily và Lucky Wheel mở trên Home với lớp nền đen bán trong suốt, không dùng background riêng. Hai panel có cùng kích thước và căn giữa Safe Area. Popup nhận thưởng vẫn hoạt động nếu thiếu tham chiếu nút Cancel; scene đã được nối lại đầy đủ. Phần thưởng chưa xác nhận được hiện lại khi mở vòng quay và không cộng trùng vật phẩm.
